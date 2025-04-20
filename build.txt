@@ -1,0 +1,22 @@
+displayName = [c/F179AF:Ammo Express(弹药快递)]
+author = [c/A39AE6:RainScales(雨量秤)]
+version = 2025.4.18.10
+homepage = https://terrariamods.wiki.gg/wiki/AmmoExpress
+
+//隐藏DLL
+hideCode = false
+//包含PDB
+includePDB = true
+//包含源码
+includeSource = true
+//隐藏资源
+hideResources = true
+
+//强制引用
+//modReferences =
+//弱引用
+//weakReferences = 
+//是否提供翻译
+//translationMod = 
+
+//未知的弹药类型: 杰克灯: ExplosiveJack'OLantern, 钉子: Nail, 螺栓: StyngerBolt

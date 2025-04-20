@@ -6,7 +6,7 @@ namespace BulletExpress.Projectiles.Ranged
         public override void SetDefaults()
         {
             Projectile.DamageType = DamageClass.Ranged;
-            Projectile.alpha = 0;
+            Projectile.alpha = 255;
             Projectile.width = 18;
             Projectile.height = 42;
             Projectile.scale = 1f;
@@ -16,22 +16,22 @@ namespace BulletExpress.Projectiles.Ranged
             Projectile.timeLeft = 32;
 
             Projectile.friendly = true;
-            Projectile.tileCollide = true;
-            Projectile.ignoreWater = false;
+            Projectile.tileCollide = false;
+            Projectile.ignoreWater = true;
             base.SetDefaults();
         }
 
         public override void AI()
         {
             base.AI();
-            //Éäµ¯Ðý×ª,ÌùÍ¼¶Ô³Æ
+            //å°„å¼¹æ—‹è½¬,è´´å›¾å¯¹ç§°
             Projectile.rotation = Projectile.velocity.ToRotation() + MathHelper.PiOver2;
             Projectile.direction = Projectile.spriteDirection = (Projectile.velocity.X > 0f) ? 1 : -1;
 
-            //Ñ°ÕÒÍæ¼ÒºÍÉäµ¯Ö®¼äµÄÏß£¬Ãª¶¨Éäµ¯¸úËæÍæ¼ÒµÄËÙ¶È
+            //å¯»æ‰¾çŽ©å®¶å’Œå°„å¼¹ä¹‹é—´çš„çº¿ï¼Œé”šå®šå°„å¼¹è·ŸéšçŽ©å®¶çš„é€Ÿåº¦
             Player player = Main.player[Projectile.owner];
             Projectile.position = player.position + Projectile.velocity * 0f * (200f - Projectile.timeLeft);
-            //Ñ°ÕÒÍæ¼ÒºÍÊó±êÖ®¼äµÄÏß£¬²úÉú¸ú×ÙÊó±êµÄËÙ¶È£¬²¢Ðý×ª
+            //å¯»æ‰¾çŽ©å®¶å’Œé¼ æ ‡ä¹‹é—´çš„çº¿ï¼Œäº§ç”Ÿè·Ÿè¸ªé¼ æ ‡çš„é€Ÿåº¦ï¼Œå¹¶æ—‹è½¬
             Vector2 v = Vector2.Normalize(Main.MouseWorld - player.Center);
             Vector2 v2 = Vector2.Normalize(Main.MouseWorld - Projectile.Center);
             float rotaion = v.ToRotation();
@@ -45,32 +45,52 @@ namespace BulletExpress.Projectiles.Ranged
                 Projectile.velocity = v2 * 1;
             }
             
-            //Ëø¶¨Éäµ¯ºÍÍæ¼Ò
+            //é”å®šå°„å¼¹å’ŒçŽ©å®¶
             Vector2 playerRotatedPoint = player.RotatedRelativePoint(player.MountedCenter, true);
 
-            //Ðý×ªºÍ¶¨Ïò¡£
+            //æ—‹è½¬å’Œå®šå‘ã€‚
             float velocityAngle = Projectile.velocity.ToRotation();
             Projectile.rotation = velocityAngle + (Projectile.spriteDirection == -1).ToInt() * MathHelper.Pi;
             Projectile.direction = (Math.Cos(velocityAngle) > 0).ToDirectionInt();
 
-            //¿¿½üÍæ¼ÒÊÖ±ÛÄ©¶ËµÄÎ»ÖÃ¡£
+            //é è¿‘çŽ©å®¶æ‰‹è‡‚æœ«ç«¯çš„ä½ç½®ã€‚
             Projectile.position = playerRotatedPoint - Projectile.Size * 0.5f + velocityAngle.ToRotationVector2() * 80f;
 
-            //Sprite ºÍÍæ¼Ò·½Ïò¡£
+            //Sprite å’ŒçŽ©å®¶æ–¹å‘ã€‚
             Projectile.spriteDirection = Projectile.direction;
             player.ChangeDir(Projectile.direction);
 
-            //»ùÓÚÍæ¼ÒÏîÄ¿µÄ×Ö¶Î×÷¡£
+            //åŸºäºŽçŽ©å®¶é¡¹ç›®çš„å­—æ®µä½œã€‚
             player.itemRotation = (Projectile.velocity * Projectile.direction).ToRotation();
             player.heldProj = Projectile.whoAmI;
         }
 
         public override Color? GetAlpha(Color drawColor) => Projectile.ai[0] == 1 ? new Color(0, 0, 0, Projectile.alpha) : new Color(255, 255, 255, Projectile.alpha);
 
+        public override void OnHitPlayer(Player target, Player.HurtInfo info)
+        {
+            for (int i = 0; i < 8; i++)
+            {
+                Dust d = Dust.NewDustDirect(Projectile.position, Projectile.width, Projectile.height, ModContent.DustType<IDA.Powders.LightIV>(), 0f, 0f, 0, default, 1.5f);
+                Vector2 v = Projectile.velocity;
+                Vector2 v2 = v.RotatedByRandom(MathHelper.ToRadians(8));
+                v2 *= 1f - Main.rand.NextFloat(0.9f);
+                d.velocity = -v2;
+            }
+        }
+
         public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
         {
             Main.player[Projectile.owner].velocity = Vector2.Normalize(-Projectile.velocity) * 12f;
             NetMessage.SendData(MessageID.SyncPlayer, -1, -1, null, Projectile.owner);
+            for (int i = 0; i < 8; i++)
+            {
+                Dust d = Dust.NewDustDirect(Projectile.position, Projectile.width, Projectile.height, ModContent.DustType<IDA.Powders.LightIV>(), 0f, 0f, 0, default, 1.5f);
+                Vector2 v = Projectile.velocity;
+                Vector2 v2 = v.RotatedByRandom(MathHelper.ToRadians(8));
+                v2 *= 1f - Main.rand.NextFloat(0.9f);
+                d.velocity = -v2;
+            }
         }
     }
 }

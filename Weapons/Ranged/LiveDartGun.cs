@@ -34,14 +34,19 @@ namespace BulletExpress.Weapons.Ranged
 
         public override void ModifyShootStats(Player player, ref Vector2 position, ref Vector2 velocity, ref int type, ref int damage, ref float knockback)
         {
-            Projectile.NewProjectileDirect(source, position, velocity, ModContent.ProjectileType<Projectiles.Ranged.MAGIII>(), damage, knockback, player.whoAmI);
-
             Vector2 offset = Vector2.Normalize(velocity) * 25f;
 
             if (Collision.CanHit(position, 4, 0, position + offset, 2, 0))
             {
                 position += offset;
             }
+        }
+
+        public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback)
+        {
+            Projectile.NewProjectileDirect(source, position, velocity, ModContent.ProjectileType<Projectiles.Ranged.MAGIII>(), damage, knockback, player.whoAmI);
+
+            return false;
         }
 
         public override void AddRecipes()

@@ -8,7 +8,7 @@ hideCode = false
 //包含PDB
 includePDB = true
 //包含源码
-includeSource = true
+includeSource = false
 //隐藏资源
 hideResources = true
 

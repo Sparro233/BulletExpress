@@ -10,8 +10,8 @@ namespace BulletExpress.Weapons.Ranged
             Item.UseSound = SoundID.Item99;
             Item.damage = 30;
             Item.knockBack = 1;
-            Item.useTime = 24;
-            Item.useAnimation = 24;
+            Item.useTime = 32;
+            Item.useAnimation = 32;
             Item.value = 7810;
             Item.rare = 1;
 

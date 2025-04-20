@@ -46,6 +46,8 @@ namespace BulletExpress.Weapons.Ranged
         {
             Projectile.NewProjectileDirect(source, position, velocity, ModContent.ProjectileType<Projectiles.Ranged.MAGIII>(), damage, knockback, player.whoAmI);
 
+            Projectile.NewProjectileDirect(source, position, velocity, type, damage, knockback, player.whoAmI);
+
             return false;
         }
 

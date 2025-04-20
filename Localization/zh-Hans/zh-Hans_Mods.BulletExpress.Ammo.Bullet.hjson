@@ -1,0 +1,139 @@
+ManganeseBullet: {
+	DisplayName: 锰弹
+	Tooltip: 召唤物+12伤害
+}
+
+CopperBullet: {
+	DisplayName: 铜子弹
+	Tooltip: 穿透2个敌人
+}
+
+TinBullet: {
+	DisplayName: 锡弹
+	Tooltip: 命中释放25%伤害的锡渣
+}
+
+IronBullet: {
+	DisplayName: 铁子弹
+	Tooltip: 导致破伤风
+}
+
+LeadBullet: {
+	DisplayName: 铅子弹
+	Tooltip: 导致铅中毒
+}
+
+DecayBullet: {
+	DisplayName: 衰变子弹
+	Tooltip: 导致破伤风，伤害减免+6%
+}
+
+CrimsonBullet: {
+	DisplayName: 腥红子弹
+	Tooltip: 导致灵液
+}
+
+HellstoneBullet: {
+	DisplayName: 狱岩弹
+	Tooltip: 命中释放33%伤害的日光爆炸和莫洛托夫火花
+}
+
+CobaltBullet: {
+	DisplayName: 钴子弹
+	Tooltip: 穿透3个敌怪，命中释放钴斩击
+}
+
+PalladiumBullet: {
+	DisplayName: 钯金子弹
+	Tooltip: 命中恢复1生命，高速飞行速度
+}
+
+MythrilBullet: {
+	DisplayName: 秘银子弹
+	Tooltip: 如果附近有敌人，每0.25秒释放一次跟踪子弹，造成50%伤害
+}
+
+OrichalcumBullet: {
+	DisplayName: 山铜子弹
+	Tooltip: 命中传送到屏幕之外，跟踪、穿墙、释放花瓣。
+}
+
+AdamantiteBullet: {
+	DisplayName: 精金子弹
+	Tooltip: 穿透1个敌人，高飞行速度、高暴击率
+}
+
+TitaniumBullet: {
+	DisplayName: 钛金子弹
+	Tooltip: 命中释放50%伤害的旋转花瓣
+}
+
+HolyShelterBullet: {
+	DisplayName: 圣庇护所子弹
+	Tooltip: 穿透1个敌人，命中获得圣庇护，生命再生+1、防御+7、移动速度+20%
+}
+
+ShroomiteBullet: {
+	DisplayName: 蘑菇弹
+	Tooltip: 穿透2个敌人，飞行时随机释放200%伤害的蘑菇。
+}
+
+SpectreBullet: {
+	DisplayName: 幽灵子弹
+	Tooltip: 穿透7个敌人，跟踪、自动切换攻击目标
+}
+
+SpiderBullet: {
+	Tooltip: ""
+	DisplayName: 蜘蛛子弹
+}
+
+ShadowFlameBullet: {
+	Tooltip: ""
+	DisplayName: 暗影烈焰弹
+}
+
+HorizonTearBullet: {
+	DisplayName: 地平线撕裂弹
+	Tooltip: ""
+}
+
+IceSnowBullet: {
+	DisplayName: 冰雪子弹
+	Tooltip: ""
+}
+
+RubberBullet: {
+	Tooltip: ""
+	DisplayName: 橡胶弹
+}
+
+HoundiusShootiusFireball: {
+	Tooltip: ""
+	DisplayName: 特斯拉火球
+}
+
+BeeBullet: {
+	Tooltip: ""
+	DisplayName: 蜜蜂弹
+}
+
+EarlBullet: {
+	Tooltip: ""
+	DisplayName: 伯爵子弹
+}
+
+MapleLeaveBullet: {
+	DisplayName: 枫叶弹
+	Tooltip: ""
+}
+
+BookStaffShotBullet: {
+	DisplayName: 书籍法杖射击弹
+	Tooltip: ""
+}
+
+HighVelocityNanoBullet: {
+	DisplayName: 高速纳米子弹
+	Tooltip: ""
+}

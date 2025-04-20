@@ -1,0 +1,168 @@
+ChlorophyllCourier: {
+	Tooltip: ""
+	DisplayName: Chlorophyll Courier
+}
+
+AshesCourier: {
+	Tooltip: ""
+	DisplayName: Ashes Courier
+}
+
+EncapsulatedGilicon: {
+	DisplayName: Encapsulated Gilicon
+	Tooltip:
+		'''
+		A dangerous radioactive element, whose radiant energy penetrates anything other than glass, 
+		is neurotoxic and can destroy electronic facilities.
+		'''
+}
+
+LightBar: {
+	DisplayName: Light Bar
+	Tooltip: ""
+}
+
+LightCrystal: {
+	DisplayName: Light Crystal
+	Tooltip: ""
+}
+
+LightPowder: {
+	DisplayName: Light Powder
+	Tooltip: ""
+}
+
+MagicBar: {
+	DisplayName: Magic Bar
+	Tooltip: ""
+}
+
+MagicCrystal: {
+	DisplayName: Magic Crystal
+	Tooltip: ""
+}
+
+MagicPowder: {
+	DisplayName: Magic Powder
+	Tooltip: ""
+}
+
+StormBar: {
+	DisplayName: Storm Bar
+	Tooltip: ""
+}
+
+StormCrystal: {
+	DisplayName: Storm Crystal
+	Tooltip: ""
+}
+
+ManganeseBar: {
+	DisplayName: Manganese Bar
+	Tooltip: ""
+}
+
+ManganeseOre: {
+	DisplayName: Manganese Ore
+	Tooltip: ""
+}
+
+WheatSeed: {
+	Tooltip: ""
+	DisplayName: Wheat Seed
+}
+
+WheatEar: {
+	Tooltip: ""
+	DisplayName: Wheat Ear
+}
+
+ManganeseBrick: {
+	Tooltip: ""
+	DisplayName: Manganese Brick
+}
+
+DirtPlatform: {
+	Tooltip: ""
+	DisplayName: Dirt Platform
+}
+
+SteelTube: {
+	Tooltip: ""
+	DisplayName: Steel Tube
+}
+
+SlimeCream: {
+	Tooltip: ""
+	DisplayName: Slime Cream
+}
+
+RefinedSugarBottle: {
+	Tooltip: Carbohydrates
+	DisplayName: Refined Sugar Bottle
+}
+
+RefinedSaltBottle: {
+	Tooltip: Sodium chloride
+	DisplayName: Refined Salt Bottle
+}
+
+Flour: {
+	Tooltip: ""
+	DisplayName: Flour
+}
+
+VoltageBar: {
+	Tooltip: ""
+	DisplayName: Voltage Bar
+}
+
+GiliconBar: {
+	Tooltip: ""
+	DisplayName: Gilicon Bar
+}
+
+DesertGeneratingDevice: {
+	DisplayName: Desert Generating Device
+	Tooltip: ""
+}
+
+InkCopperBar: {
+	DisplayName: Ink Copper Bar
+	Tooltip: ""
+}
+
+InkGoldBar: {
+	DisplayName: Ink Gold Bar
+	Tooltip: ""
+}
+
+InkIronBar: {
+	DisplayName: Ink Iron Bar
+	Tooltip: ""
+}
+
+InkSilverBar: {
+	DisplayName: Ink Silver Bar
+	Tooltip: ""
+}
+
+TangerineCoconut: {
+	DisplayName: Tangerine Coconut
+	Tooltip: ""
+}
+
+StaleNote: {
+	DisplayName: Stale Note
+	Tooltip: ""
+}
+
+StrayCotton: {
+	DisplayName: Stray Cotton
+	Tooltip: They wander, just like us wandering in the starry sky
+}
+
+StrayCottonSeed: {
+	DisplayName: Stray Cotton Seed
+	Tooltip: ""
+}

@@ -1,0 +1,243 @@
+Glacier: {
+	DisplayName: Glacier
+	Tooltip: ""
+}
+
+Nibbled: {
+	DisplayName: Nibbled
+	Tooltip: ""
+}
+
+PolarisFlamethrower: {
+	Tooltip: ""
+	DisplayName: Polaris Flamethrower
+}
+
+MAGIII: {
+	Tooltip: ""
+	DisplayName: MAG III
+}
+
+SeaBlueLauncher: {
+	Tooltip: ""
+	DisplayName: Sea Blue Launcher
+}
+
+ManganeseAmmoLauncher: {
+	Tooltip: ""
+	DisplayName: Manganese Ammo Launcher
+}
+
+CopperAmmoLauncher: {
+	DisplayName: Copper Ammo Launcher:
+	Tooltip: ""
+}
+
+TinAmmoLauncher: {
+	DisplayName: Tin Ammo Launcher
+	Tooltip: ""
+}
+
+IronAmmoLauncher: {
+	DisplayName: Iron Ammo Launcher
+	Tooltip: ""
+}
+
+LeadAmmoLauncher: {
+	DisplayName: Lead Ammo Launcher
+	Tooltip: ""
+}
+
+SilverAmmoLauncher: {
+	DisplayName: Silver Ammo Launcher
+	Tooltip: ""
+}
+
+TungstenAmmoLauncher: {
+	DisplayName: Tungsten Ammo Launcher
+	Tooltip: ""
+}
+
+GoldAmmoLauncher: {
+	DisplayName: Gold Ammo Launcher
+	Tooltip: ""
+}
+
+PlatinumAmmoLauncher: {
+	DisplayName: Platinum Ammo Launcher
+	Tooltip: ""
+}
+
+ExplodingBowWhiteWing: {
+	DisplayName: Exploding Bow White Wing
+	Tooltip: ""
+}
+
+LemonJuiceBox: {
+	DisplayName: Lemon Juice Box
+	Tooltip: ""
+}
+
+ChlorophyteSubmachineGun: {
+	DisplayName: Chlorophyte Submachine Gun
+	Tooltip: ""
+}
+
+Barren: {
+	DisplayName: Barren
+	Tooltip: ""
+}
+
+AdamantiteAmmoLauncher: {
+	DisplayName: Adamantite Ammo Launcher
+	Tooltip: ""
+}
+
+BiscuitResidueEmitter: {
+	DisplayName: Biscuit Residue Emitter
+	Tooltip: ""
+}
+
+CobaltAmmoLauncher: {
+	DisplayName: Cobalt Ammo Launcher
+	Tooltip: ""
+}
+
+HellHeavyArtillery: {
+	DisplayName: Hell Heavy Artillery
+	Tooltip: ""
+}
+
+Intimidate: {
+	DisplayName: Intimidate
+	Tooltip: ""
+}
+
+NewYearLauncher: {
+	DisplayName: New Year Launcher
+	Tooltip: ""
+}
+
+PalladiumAmmoLauncher: {
+	DisplayName: Palladium Ammo Launcher
+	Tooltip: ""
+}
+
+ProsperityLauncher: {
+	DisplayName: Prosperity Launcher
+	Tooltip: ""
+}
+
+SakuraPowderEmitter: {
+	DisplayName: Sakura Powder Emitter
+	Tooltip: ""
+}
+
+TitaniumAmmoLauncher: {
+	DisplayName: Titanium Ammo Launcher
+	Tooltip: ""
+}
+
+VortexMourners: {
+	DisplayName: Vortex Mourners
+	Tooltip: ""
+}
+
+Shadow: {
+	DisplayName: Shadow
+	Tooltip: ""
+}
+
+Violin: {
+	DisplayName: Violin
+	Tooltip: ""
+}
+
+Violoncello: {
+	DisplayName: Violoncello
+	Tooltip: ""
+}
+
+CandyWaferDartGun: {
+	DisplayName: Candy Wafer Dart Gun
+	Tooltip: ""
+}
+
+CandyWaferFlyDartGun: {
+	DisplayName: Candy Wafer Fly Dart Gun
+	Tooltip: ""
+}
+
+CandyWaferRifle: {
+	DisplayName: Candy Wafer Rifle
+	Tooltip: ""
+}
+
+CompositeDartGun: {
+	DisplayName: Composite Dart Gun
+	Tooltip: ""
+}
+
+LiveDartGun: {
+	DisplayName: Live Dart Gun
+	Tooltip: ""
+}
+
+ManganeseBow: {
+	DisplayName: Manganese Bow
+	Tooltip: ""
+}
+
+Start: {
+	DisplayName: Start
+	Tooltip: ""
+}
+
+CelebrationMk1: {
+	DisplayName: Celebration Mk1
+	Tooltip: ""
+}
+
+EmuCatsSubmachineGun: {
+	DisplayName: Emu Cats Submachine Gun
+	Tooltip: She leaves the crowd and goes in search of a wider place
+}
+
+Mixer: {
+	DisplayName: Mixer
+	Tooltip: ""
+}
+
+Moerjiekos: {
+	DisplayName: Moerjiekos
+	Tooltip: ""
+}
+
+KnifeDance: {
+	DisplayName: Knife Dance
+	Tooltip: ""
+}
+
+WasteSoilShotgun: {
+	DisplayName: Waste Soil Shotgun
+	Tooltip: ""
+}
+
+WasteSoilRifle: {
+	DisplayName: Waste Soil Rifle
+	Tooltip: ""
+}
+
+LotusSeedsBurstOut: {
+	Tooltip: ""
+	DisplayName: Lotus Seeds Burst Out
+}
+
+ExplodingBowVioletFlame: {
+	DisplayName: Exploding Bow Violet Flame
+	Tooltip:
+		'''
+		Where will everything we leave behind wander to, 
+		and which civilization will probably pick it up again and coexist?
+		'''
+}

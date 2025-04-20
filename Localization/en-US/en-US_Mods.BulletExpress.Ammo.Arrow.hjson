@@ -1,0 +1,154 @@
+AdamantiteArrow: {
+	DisplayName: Adamantite Arrow
+	Tooltip: ""
+}
+
+CobaltArrow: {
+	DisplayName: Cobalt Arrow
+	Tooltip: ""
+}
+
+CopperArrow: {
+	DisplayName: Copper Arrow
+	Tooltip: ""
+}
+
+CrimtaneArrow: {
+	DisplayName: Crimtane Arrow
+	Tooltip: ""
+}
+
+DecayArrow: {
+	DisplayName: Decay Arrow
+	Tooltip: ""
+}
+
+GoldArrow: {
+	DisplayName: Gold Arrow
+	Tooltip: ""
+}
+
+HolyShelterArrow: {
+	DisplayName: Holy Shelter Arrow
+	Tooltip: ""
+}
+
+LeadArrow: {
+	DisplayName: Lead Arrow
+	Tooltip: ""
+}
+
+MeteorArrow: {
+	DisplayName: Meteor Arrow
+	Tooltip: ""
+}
+
+MythrilArrow: {
+	DisplayName: Mythril Arrow
+	Tooltip: ""
+}
+
+OrichalcumArrow: {
+	DisplayName: Orichalcum Arrow
+	Tooltip: ""
+}
+
+PalladiumArrow: {
+	DisplayName: Palladium Arrow
+	Tooltip: ""
+}
+
+ShroomiteArrow: {
+	DisplayName: Shroomite Arrow
+	Tooltip: ""
+}
+
+SilverArrow: {
+	DisplayName: Silver Arrow
+	Tooltip: ""
+}
+
+SpectreArrow: {
+	DisplayName: Spectre Arrow
+	Tooltip: ""
+}
+
+TinArrow: {
+	DisplayName: Tin Arrow
+	Tooltip: ""
+}
+
+TitaniumArrow: {
+	DisplayName: Titanium Arrow
+	Tooltip: ""
+}
+
+BeeArrow: {
+	DisplayName: Bee Arrow
+	Tooltip: ""
+}
+
+BetsyArrow: {
+	DisplayName: Betsy Arrow
+	Tooltip: ""
+}
+
+EatersBiteArrow: {
+	DisplayName: Eaters Bite Arrow
+	Tooltip: ""
+}
+
+FrostArrow: {
+	DisplayName: Frost Arrow
+	Tooltip: ""
+}
+
+PulseBolt: {
+	DisplayName: Pulse Bolt
+	Tooltip: ""
+}
+
+ShadowFlameArrow: {
+	DisplayName: Shadow Flame Arrow
+	Tooltip: ""
+}
+
+CrossGooSArrow: {
+	DisplayName: Cross Goo S Arrow
+	Tooltip: When you see everything clearly, that fleeting opportunity, you will break all barriers
+}
+
+PhantasmArrow: {
+	DisplayName: Phantasm Arrow
+	Tooltip: ""
+}
+
+BoomCrystalArrow: {
+	DisplayName: Boom Crystal Arrow
+	Tooltip: ""
+}
+
+ManganeseArrow: {
+	DisplayName: Manganese Arrow
+	Tooltip: ""
+}
+
+BloodBolt: {
+	DisplayName: Blood Bolt
+	Tooltip: ""
+}
+
+DecorationArrow: {
+	DisplayName: Decoration Arrow
+	Tooltip: ""
+}
+
+HorizonTurbulenceArrow: {
+	DisplayName: Horizon Turbulence Arrow
+	Tooltip: ""
+}
+
+MapleLeaveArrow: {
+	Tooltip: ""
+	DisplayName: Maple Leave Arrow
+}

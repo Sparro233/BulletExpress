@@ -1,0 +1,14 @@
+CrystalDartCourierBox: {
+	DisplayName: 水晶镖快递盒
+	Tooltip: ""
+}
+
+CursedDartCourierBox: {
+	DisplayName: 诅咒镖快递盒
+	Tooltip: ""
+}
+
+IchorDartCourierBox: {
+	DisplayName: 灵液镖快递盒
+	Tooltip: ""
+}

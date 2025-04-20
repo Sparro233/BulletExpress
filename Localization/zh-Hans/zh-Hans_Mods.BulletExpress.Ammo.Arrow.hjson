@@ -1,0 +1,154 @@
+AdamantiteArrow: {
+	DisplayName: 精金箭
+	Tooltip: ""
+}
+
+CobaltArrow: {
+	DisplayName: 钴箭
+	Tooltip: ""
+}
+
+CopperArrow: {
+	DisplayName: 铜箭
+	Tooltip: ""
+}
+
+CrimtaneArrow: {
+	DisplayName: 腥红箭
+	Tooltip: ""
+}
+
+DecayArrow: {
+	DisplayName: 衰变箭
+	Tooltip: ""
+}
+
+GoldArrow: {
+	DisplayName: 金箭
+	Tooltip: ""
+}
+
+HolyShelterArrow: {
+	DisplayName: 圣庇护所箭
+	Tooltip: ""
+}
+
+LeadArrow: {
+	DisplayName: 铅箭
+	Tooltip: ""
+}
+
+MeteorArrow: {
+	DisplayName: 流星箭
+	Tooltip: ""
+}
+
+MythrilArrow: {
+	DisplayName: 秘银箭
+	Tooltip: ""
+}
+
+OrichalcumArrow: {
+	DisplayName: 山铜箭
+	Tooltip: ""
+}
+
+PalladiumArrow: {
+	DisplayName: 钯金箭
+	Tooltip: ""
+}
+
+ShroomiteArrow: {
+	DisplayName: 蘑菇箭
+	Tooltip: ""
+}
+
+SilverArrow: {
+	DisplayName: 银箭
+	Tooltip: ""
+}
+
+SpectreArrow: {
+	DisplayName: 幽灵箭
+	Tooltip: ""
+}
+
+TinArrow: {
+	DisplayName: 锡箭
+	Tooltip: ""
+}
+
+TitaniumArrow: {
+	DisplayName: 钛金箭
+	Tooltip: ""
+}
+
+BeeArrow: {
+	DisplayName: 蜜蜂箭
+	Tooltip: ""
+}
+
+BetsyArrow: {
+	DisplayName: 双足翼龙箭
+	Tooltip: ""
+}
+
+EatersBiteArrow: {
+	DisplayName: 腐化者噬咬箭
+	Tooltip: ""
+}
+
+FrostArrow: {
+	DisplayName: 冰雪箭
+	Tooltip: ""
+}
+
+PulseBolt: {
+	DisplayName: 脉冲螺栓矢
+	Tooltip: ""
+}
+
+ShadowFlameArrow: {
+	DisplayName: 暗影烈焰箭
+	Tooltip: ""
+}
+
+CrossGooSArrow: {
+	DisplayName: 十字咕德箭
+	Tooltip: 当看清了一切，那个稍纵即逝的机会，你将击碎一切隔阂
+}
+
+PhantasmArrow: {
+	DisplayName: 幻影箭
+	Tooltip: ""
+}
+
+BoomCrystalArrow: {
+	DisplayName: 爆炸水晶箭
+	Tooltip: ""
+}
+
+ManganeseArrow: {
+	DisplayName: 锰箭
+	Tooltip: ""
+}
+
+BloodBolt: {
+	DisplayName: 血螺栓矢
+	Tooltip: ""
+}
+
+DecorationArrow: {
+	DisplayName: 装饰箭
+	Tooltip: ""
+}
+
+HorizonTurbulenceArrow: {
+	DisplayName: 地平线湍流箭
+	Tooltip: ""
+}
+
+MapleLeaveArrow: {
+	Tooltip: ""
+	DisplayName: 枫叶箭
+}

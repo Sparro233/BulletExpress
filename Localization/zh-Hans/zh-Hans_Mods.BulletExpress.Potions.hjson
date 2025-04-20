@@ -1,0 +1,148 @@
+AnkhCharmPotion: {
+	DisplayName: 十字章护咒药水
+	Tooltip: 当真，你拿光暗碎块做这玩意？
+}
+
+WildPotion: {
+	DisplayName: 野生药水
+	Tooltip: 造成野性咬噬 debuff
+}
+
+GilicifiedPotion: {
+	DisplayName: 矽化药水
+	Tooltip:
+		'''
+		短暂增加50%伤害
+		有毒，你确定要喝吗？
+		'''
+}
+
+HatePotion: {
+	DisplayName: 憎恨药水
+	Tooltip:
+		'''
+		所有伤害增加5％
+		所有暴击增加16％
+		生命再生减少4
+		生命上限减少20
+		'''
+}
+
+LifeSlagPotion: {
+	DisplayName: 生命熔渣药水
+	Tooltip:
+		'''
+		生命再生增加2
+		生命上限增加20
+		'''
+}
+
+LiquidLightPotion: {
+	DisplayName: 液体光药水
+	Tooltip: 魔力消耗减少20%
+}
+
+MagicSlagPotion: {
+	DisplayName: 魔法熔渣药水
+	Tooltip:
+		'''
+		魔力上限增加40
+		魔力再生增加5
+		'''
+}
+
+NutrientPotion: {
+	DisplayName: 营养药水
+	Tooltip:
+		'''
+		短暂提升大量生命再生
+		尝起来像汉堡馅三明治薯条奶油酥皮蛋糕
+		'''
+}
+
+PotencyGilicifiedPotion: {
+	DisplayName: 强效矽化药水
+	Tooltip:
+		'''
+		短暂增加100%伤害
+		喝它感觉就像被水晶刺穿身体
+		'''
+}
+
+PotencyMagicSlagPotion: {
+	DisplayName: 强效魔法熔渣药水
+	Tooltip:
+		'''
+		魔力上限增加80
+		魔力再生增加10
+		清凉清爽
+		'''
+}
+
+PotencySummonPotion: {
+	DisplayName: 强效召唤药水
+	Tooltip:
+		'''
+		仆从栏位增加2
+		魔力上限增加20
+		召唤一车面包人
+		'''
+}
+
+PotencySwiftnessPotion: {
+	DisplayName: 强效敏捷药水
+	Tooltip:
+		'''
+		移动速度增加20％
+		暴击率增加3％
+		'''
+}
+
+SuperHatePotion: {
+	DisplayName: 超级憎恨药水
+	Tooltip:
+		'''
+		所有伤害增加10％
+		所有暴击增加32％
+		生命再生减少8
+		生命上限减少80
+		'''
+}
+
+SuperLifeSlagPotion: {
+	DisplayName: 超级生命熔渣药水
+	Tooltip:
+		'''
+		生命再生增加2
+		生命上限增加20
+		'''
+}
+
+SuperLiquidLightPotion: {
+	DisplayName: 超级液体光药水
+	Tooltip: 魔力消耗减少40%
+}
+
+SuperNutrientPotion: {
+	DisplayName: 超级营养药水
+	Tooltip: 短暂提升大量生命再生
+}
+
+SuperSummonPotion: {
+	DisplayName: 超级召唤药水
+	Tooltip:
+		'''
+		仆从栏位增加3
+		魔力上限增加40
+		召唤一车面包人
+		'''
+}
+
+SuperSwiftnessPotion: {
+	DisplayName: 超级敏捷药水
+	Tooltip:
+		'''
+		移动速度增加40％
+		暴击率增加6％
+		'''
+}

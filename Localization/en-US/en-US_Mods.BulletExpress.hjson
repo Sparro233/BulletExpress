@@ -1,0 +1,106 @@
+Items: {
+	EndlessFallenStar: {
+		DisplayName: Endless Fallen Star
+		Tooltip: ""
+	}
+
+	EndlessGel: {
+		DisplayName: Endless Gel
+		Tooltip: ""
+	}
+
+	EndlessCopperCoin: {
+		DisplayName: Endless Copper Coin
+		Tooltip: ""
+	}
+
+	EndlessGoldCoin: {
+		DisplayName: Endless Gold Coin
+		Tooltip: ""
+	}
+
+	EndlessPlatinumCoin: {
+		DisplayName: Endless Platinum Coin
+		Tooltip: ""
+	}
+
+	EndlessSilverCoin: {
+		DisplayName: Endless Silver Coin
+		Tooltip: ""
+	}
+
+	SnowballCourierBox: {
+		DisplayName: Snowball Courier Box
+		Tooltip: ""
+	}
+
+	EndlessBlueFlare: {
+		DisplayName: Endless Blue Flare
+		Tooltip: ""
+	}
+
+	EndlessCursedFlare: {
+		DisplayName: Endless Cursed Flare
+		Tooltip: ""
+	}
+
+	EndlessFlare: {
+		DisplayName: Endless Flare
+		Tooltip: ""
+	}
+
+	EndlessRainbowFlare: {
+		DisplayName: Endless Rainbow Flare
+		Tooltip: ""
+	}
+
+	EndlessShimmerFlare: {
+		DisplayName: Endless Shimmer Flare
+		Tooltip: ""
+	}
+
+	CandyCornCourierBox: {
+		DisplayName: Candy Corn Courier Box
+		Tooltip: ""
+	}
+
+	StakeCourierBox: {
+		DisplayName: Stake Courier Box
+		Tooltip: ""
+	}
+
+	ThunderZapperBullet: {
+		Tooltip: ""
+		DisplayName: Thunder Zapper Bullet
+	}
+
+	StormFlashbang: {
+		Tooltip: ""
+		DisplayName: Storm Flashbang
+	}
+
+	SouthernCrossFlashbang: {
+		Tooltip: ""
+		DisplayName: Southern Cross Flashbang
+	}
+
+	MiniSharkronRocket: {
+		DisplayName: Mini Sharkron Rocket
+		Tooltip: ""
+	}
+
+	Waffle: {
+		DisplayName: Waffle
+		Tooltip: ""
+	}
+
+	EndlessSouthernCrossFlashbang: {
+		DisplayName: Endless Southern Cross Flashbang
+		Tooltip: ""
+	}
+
+	EndlessSpelunkerFlare: {
+		DisplayName: Endless Spelunker Flare
+		Tooltip: ""
+	}
+}

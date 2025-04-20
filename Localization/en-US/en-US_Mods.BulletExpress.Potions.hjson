@@ -1,0 +1,148 @@
+AnkhCharmPotion: {
+	DisplayName: Ankh Charm Potion
+	Tooltip: Really, you're making this out of light and dark pieces?
+}
+
+WildPotion: {
+	DisplayName: Wild Potion
+	Tooltip: Inflicts the Wild Devour Debuff
+}
+
+GilicifiedPotion: {
+	DisplayName: Gilicified Potion
+	Tooltip:
+		'''
+		Temporarily increases damage by 50%
+		Toxic, are you sure you want to drink it?
+		'''
+}
+
+HatePotion: {
+	DisplayName: Hate Potion
+	Tooltip:
+		'''
+		Increases all damage by 5%.
+		Increases Critical Strike Chance by 16%.
+		Reduces life regeneration by 6
+		Reduces maximum life by 20
+		'''
+}
+
+LifeSlagPotion: {
+	DisplayName: Life Slag Potion
+	Tooltip:
+		'''
+		Life regeneration increased by 2 
+		Max life increased by 20
+		'''
+}
+
+LiquidLightPotion: {
+	DisplayName: Liquid Light Potion
+	Tooltip: Mana cost reduced by 20%
+}
+
+MagicSlagPotion: {
+	DisplayName: Magic Slag Potion
+	Tooltip:
+		'''
+		Mana cap increased by 40
+		Mana Regeneration increased by 5
+		'''
+}
+
+NutrientPotion: {
+	DisplayName: Nutrient Potion
+	Tooltip:
+		'''
+		Temporary ascension and massive life regeneration
+		Tastes like burger filling Sandwich fries Cream puff cake
+		'''
+}
+
+PotencyGilicifiedPotion: {
+	DisplayName: Potency Gilicified Potion
+	Tooltip:
+		'''
+		Temporarily increases damage by 100%
+		Drinking it feels like being pierced through the body by crystals
+		'''
+}
+
+PotencyMagicSlagPotion: {
+	DisplayName: Potency Magic Slag Potion
+	Tooltip:
+		'''
+		Mana cap increased by 80
+		Mana Regeneration increased by 10
+		Cool and refreshing
+		'''
+}
+
+PotencySummonPotion: {
+	DisplayName: Potency Summon Potion
+	Tooltip:
+		'''
+		Added 2 minion slots
+		Mana cap increased by 20
+		Summon a cart of bread men
+		'''
+}
+
+PotencySwiftnessPotion: {
+	DisplayName: Potency Swiftness Potion
+	Tooltip:
+		'''
+		Movement speed increased by 20%
+		Critical Strike Rate increased by 3%
+		'''
+}
+
+SuperHatePotion: {
+	DisplayName: Super Hate Potion
+	Tooltip:
+		'''
+		Increases all damage by 10%.
+		Increases Critical Strike Chance by 32%.
+		Reduces life regeneration by 8
+		Reduces maximum life by 80
+		'''
+}
+
+SuperLifeSlagPotion: {
+	DisplayName: Super Life Slag Potion
+	Tooltip:
+		'''
+		Life regeneration increased by 4
+		Max life increased by 40
+		'''
+}
+
+SuperLiquidLightPotion: {
+	DisplayName: Super Liquid Light Potion
+	Tooltip: Mana cost reduced by 40%
+}
+
+SuperNutrientPotion: {
+	DisplayName: Super Nutrient Potion
+	Tooltip: Temporary ascension and massive life regeneration
+}
+
+SuperSummonPotion: {
+	DisplayName: Super Summon Potion
+	Tooltip:
+		'''
+		Added 3 minion slots
+		Mana cap increased by 40
+		Summon a cart of bread men
+		'''
+}
+
+SuperSwiftnessPotion: {
+	DisplayName: Super Swiftness Potion
+	Tooltip:
+		'''
+		Movement speed increased by 40%
+		Critical Strike Rate increased by 6%
+		'''
+}

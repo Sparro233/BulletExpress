@@ -1,0 +1,135 @@
+TechnologyChip: {
+	Tooltip:
+		'''
+		Armor penetration +2
+		Move speed +20%
+		'''
+	DisplayName: Technology Chip
+}
+
+NatureChip: {
+	Tooltip:
+		'''
+		No fall damage 
+		Knockback +200%
+		Max minions +1
+		'''
+	DisplayName: Nature Chip
+}
+
+MagicChip: {
+	Tooltip:
+		'''
+		Magic armor penetration +8
+		Max magic +20
+		'''
+	DisplayName: Magic Chip
+}
+
+Catball: {
+	DisplayName: Catball
+	Tooltip:
+		'''
+		Damage +6％
+		Crit +6％
+		Attack speed +6％
+		Move speed -6％
+		Endurance -6％
+		Remember what "we" wanted at the beginning?
+		To dispel all fears, even those of the dying.
+		'''
+}
+
+DestroyChip: {
+	DisplayName: Destroy Chip
+	Tooltip:
+		'''
+		Armor penetration +1
+		Base damage +1
+		Flat get damage +1
+		'''
+}
+
+KryptonCrystal: {
+	DisplayName: Krypton Crystal
+	Tooltip: A crystal with protective powers
+}
+
+LifeChip: {
+	DisplayName: Life Chip
+	Tooltip:
+		'''
+		No fall damage
+		Knockback +400％
+		Life regen +3
+		Move speed +8％
+		'''
+}
+
+StormWing: {
+	Tooltip: Wing time max =600
+	DisplayName: Storm Wing
+}
+
+MagicWing: {
+	Tooltip: Wing time max =240
+	DisplayName: Magic Wing
+}
+
+LightWing: {
+	Tooltip: Wing time max =40
+	DisplayName: Light Wing
+}
+
+LuckyBread: {
+	Tooltip:
+		'''
+		Life max +20
+		Life regen +2
+		'''
+	DisplayName: Lucky Bread
+}
+
+StormHalo: {
+	Tooltip:
+		'''
+		Max minions +1
+		Magic max +20
+		Life max +20
+		'''
+	DisplayName: Storm Halo
+}
+
+RedstoneOrnament: {
+	Tooltip:
+		'''
+		Armor penetration +10
+		Base damage +10
+		Flat get damage +10
+		Damage +10%
+		Crit +10%
+		Knockback +100%
+		Attack speed +10%
+		Max minions +1
+		Life max +100
+		Magic max x2
+		Life regen count +1
+		Move speed -10％
+		Endurance -10%
+		Sincere thanks to everyone, and thank you for everything.
+		'''
+	DisplayName: Redstone Ornament
+}
+
+StormShield: {
+	DisplayName: Storm Shield
+	Tooltip:
+		'''
+		Dash velocity =1800%
+		No knockback
+		Melee  knockback +400%
+		Max minions +1
+		Magic max +20
+		Life max +20
+		'''
+}

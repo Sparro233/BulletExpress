@@ -1,0 +1,24 @@
+ChemicalTank: {
+	DisplayName: 化工罐
+	Tooltip: ""
+}
+
+Jyorat: {
+	DisplayName: 婕拉特
+	Tooltip: ""
+}
+
+LightHeartPiercingBow: {
+	DisplayName: 光之穿心弓
+	Tooltip: ""
+}
+
+MagicHeartPiercingBow: {
+	DisplayName: 魔法穿心弓
+	Tooltip: ""
+}
+
+DespairZero: {
+	DisplayName: 绝望零号
+	Tooltip: ""
+}

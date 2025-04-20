@@ -1,0 +1,106 @@
+Items: {
+	EndlessFallenStar: {
+		DisplayName: 无尽坠落之星
+		Tooltip: ""
+	}
+
+	EndlessGel: {
+		DisplayName: 无尽凝胶
+		Tooltip: ""
+	}
+
+	EndlessCopperCoin: {
+		DisplayName: 无尽铜币
+		Tooltip: ""
+	}
+
+	EndlessGoldCoin: {
+		DisplayName: 无尽金币
+		Tooltip: ""
+	}
+
+	EndlessPlatinumCoin: {
+		DisplayName: 无尽铂金币
+		Tooltip: ""
+	}
+
+	EndlessSilverCoin: {
+		DisplayName: 无尽银币
+		Tooltip: ""
+	}
+
+	SnowballCourierBox: {
+		DisplayName: 雪球快递盒
+		Tooltip: ""
+	}
+
+	EndlessBlueFlare: {
+		DisplayName: 无尽蓝照明弹弹
+		Tooltip: ""
+	}
+
+	EndlessCursedFlare: {
+		DisplayName: 无尽诅咒照明弹
+		Tooltip: ""
+	}
+
+	EndlessFlare: {
+		DisplayName: 无尽照明弹
+		Tooltip: ""
+	}
+
+	EndlessRainbowFlare: {
+		DisplayName: 无尽彩虹照明弹
+		Tooltip: ""
+	}
+
+	EndlessShimmerFlare: {
+		DisplayName: 无尽微光照明弹
+		Tooltip: ""
+	}
+
+	CandyCornCourierBox: {
+		DisplayName: 玉米糖快递盒
+		Tooltip: ""
+	}
+
+	StakeCourierBox: {
+		DisplayName: 尖桩快递盒
+		Tooltip: ""
+	}
+
+	ThunderZapperBullet: {
+		Tooltip: ""
+		DisplayName: 雷霆电击弹
+	}
+
+	StormFlashbang: {
+		Tooltip: ""
+		DisplayName: 风暴闪光弹
+	}
+
+	SouthernCrossFlashbang: {
+		Tooltip: ""
+		DisplayName: 南十字星闪光弹
+	}
+
+	MiniSharkronRocket: {
+		DisplayName: 迷你鲨鱼龙火箭
+		Tooltip: ""
+	}
+
+	Waffle: {
+		DisplayName: 华夫饼
+		Tooltip: ""
+	}
+
+	EndlessSouthernCrossFlashbang: {
+		DisplayName: 无尽南十字星闪光弹
+		Tooltip: ""
+	}
+
+	EndlessSpelunkerFlare: {
+		DisplayName: 无尽洞穴探险照明弹
+		Tooltip: ""
+	}
+}

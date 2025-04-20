@@ -1,0 +1,93 @@
+EmperorSNewShoes: {
+	Tooltip: <主人Dr.安徒生>
+	DisplayName: 皇帝的新鞋
+}
+
+EmperorSNewCrown: {
+	Tooltip: <主人Dr.安徒生>
+	DisplayName: 皇帝的新冠
+}
+
+EmperorSNewClothes: {
+	Tooltip: <主人Dr.安徒生>
+	DisplayName: 皇帝的新衣
+}
+
+SleepingCrown: {
+	DisplayName: 沉眠冠
+	Tooltip:
+		'''
+		十字章庇护
+		生命上限+20
+		生命恢复计数+2
+		'''
+	SetBonus:
+		'''
+		免疫魔力病
+		红心吸取范围增加
+		生命恢复计数+10
+		'''
+}
+
+SleepingPajamas: {
+	DisplayName: 沉眠衣
+	Tooltip:
+		'''
+		生命上限+50
+		生命恢复计数+5
+		'''
+}
+
+SleepingShoes: {
+	DisplayName: 沉眠鞋
+	Tooltip:
+		'''
+		生命上限+80
+		生命恢复计数+8
+		'''
+}
+
+StrawBeetle: {
+	DisplayName: 稻草甲
+	Tooltip:
+		'''
+		园艺伤害+12%
+		耐力+10%
+		<绘制Dr.蜡烛猫>
+		'''
+}
+
+StrawHats: {
+	DisplayName: 稻草帽
+	Tooltip: 园艺伤害+12%
+	SetBonus: 耐力+10%
+}
+
+StrawSkirt: {
+	DisplayName: 稻草裙
+	Tooltip:
+		'''
+		园艺伤害+12%
+		<绘制Dr.蜡烛猫>
+		'''
+}
+
+ManganeseHelmet: {
+	DisplayName: 锰头盔
+	Tooltip: ""
+	SetBonus: 召唤伤害+40%
+}
+
+ManganeseBreastplate: {
+	DisplayName: 锰胸甲
+	Tooltip:
+		'''
+		仆从上限+2
+		魔力上限+20
+		'''
+}
+
+ManganeseLeggings: {
+	DisplayName: 锰护腿
+	Tooltip: ""
+}

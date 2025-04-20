@@ -1,0 +1,148 @@
+TechnologyChip: {
+	Tooltip:
+		'''
+		装甲穿透+2
+		移动速度+20%
+		'''
+	DisplayName: 技术芯片
+}
+
+NatureChip: {
+	Tooltip:
+		'''
+		无跌伤
+		击退+200%
+		仆从上限+1
+		'''
+	DisplayName: 自然芯片
+}
+
+MagicChip: {
+	Tooltip:
+		'''
+		魔法装甲穿透+8
+		魔力上限+20
+		'''
+	DisplayName: 魔法芯片
+}
+
+Catball: {
+	DisplayName: 猫线球
+	Tooltip:
+		'''
+		伤害+6％
+		暴击+6％
+		攻击速度+6％
+		移动速度-6％
+		伤害减免-6％
+		还记得最一开始“我们”的愿望吗？
+		为了驱散所有的恐惧，哪怕是将死之人的恐惧。
+		'''
+}
+
+DestroyChip: {
+	DisplayName: 摧毁芯片
+	Tooltip:
+		'''
+		装甲穿透+1
+		基础伤害+1
+		单位获得伤害+1
+		'''
+}
+
+KryptonCrystal: {
+	DisplayName: 氪晶
+	Tooltip:
+		'''
+		具有护佑能力的水晶
+		这是你从弹药快递获取的第一个指引物品
+		=关于弹药=
+		矿石弹药有均衡的常用属性
+		多样的属性包括: 
+		群体伤害, 单体伤害, 增加Buff, 释放Debuff
+		分裂弹幕, 以及更多
+		=Tr系列枪=
+		拥有强于原版标准水平的强度
+		略有不同的食谱: 
+		地牢=苔原，丛林=海洋
+		'''
+}
+
+LifeChip: {
+	DisplayName: 生命芯片
+	Tooltip:
+		'''
+		无跌伤
+		击退+400％
+		生命再生+3
+		移动速度+8％
+		'''
+}
+
+StormWing: {
+	Tooltip: 翼时间最大=600
+	DisplayName: 风暴翼
+}
+
+MagicWing: {
+	Tooltip: 翼时间最大=240
+	DisplayName: 魔力翼
+}
+
+LightWing: {
+	Tooltip: 翼时间最大=40
+	DisplayName: 光翼
+}
+
+LuckyBread: {
+	Tooltip:
+		'''
+		生命上限+20
+		生命再生+2
+		'''
+	DisplayName: 幸运面包
+}
+
+StormHalo: {
+	Tooltip:
+		'''
+		仆从上限+1
+		魔力上限+80
+		生命上限+80
+		'''
+	DisplayName: 暴风雨光环
+}
+
+RedstoneOrnament: {
+	Tooltip:
+		'''
+		装甲穿透+10
+		基础伤害+10
+		单位获得伤害+10
+		伤害+10%
+		暴击+10%
+		击退+100%
+		攻击速度+10%
+		仆从上限+1
+		生命上限+100
+		魔力上限x2
+		生命恢复计数+1
+		移动速度-10％
+		耐力-10%
+		衷心感谢大家，也感谢你们所做的一切。
+		'''
+	DisplayName: 红石装饰品
+}
+
+StormShield: {
+	DisplayName: 风暴盾
+	Tooltip:
+		'''
+		冲刺速度=1800%
+		无击退
+		近战击退+400%
+		仆从上限+1
+		魔力上限+20
+		生命上限+20
+		'''
+}

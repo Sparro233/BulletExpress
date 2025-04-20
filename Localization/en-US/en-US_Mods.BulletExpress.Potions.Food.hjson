@@ -1,0 +1,36 @@
+SlimeMilk: {
+	Tooltip: ""
+	DisplayName: Slime Milk
+}
+
+WalnutDew: {
+	DisplayName: Walnut Dew
+	Tooltip:
+		'''
+		Mana cost reduced by 5%
+		Brain supplements
+		'''
+}
+
+MicroChocolate: {
+	DisplayName: Micro Chocolate
+	Tooltip:
+		'''
+		Life regeneration is increased by 1
+		Damage reduction increased by 1
+		'''
+}
+
+PepsiCola: {
+	DisplayName: Pepsi Cola
+	Tooltip: Increase Defense by 2
+}
+
+ChineseFastFood: {
+	DisplayName: Chinese Fast Food
+	Tooltip:
+		'''
+		Life regeneration is increased by 1
+		Damage reduction increased by 1
+		'''
+}

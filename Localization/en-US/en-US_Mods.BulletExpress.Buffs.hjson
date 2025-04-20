@@ -1,0 +1,184 @@
+CrimsonBless: {
+	DisplayName: Crimson Bless
+	Description: Mods.AmmoExpress.Buffs.CrimsonBless.Description
+}
+
+DecayBless: {
+	DisplayName: Decay Bless
+	Description: Mods.AmmoExpress.Buffs.DecayBless.Description
+}
+
+HolyBless: {
+	DisplayName: Holy Bless
+	Description: Movement Boost!
+}
+
+LeadPoisoning: {
+	DisplayName: Lead Poisoning
+	Description: Mods.AmmoExpress.Buffs.LeadPoisoning.Description
+}
+
+Tetanus: {
+	DisplayName: Tetanus
+	Description: Mods.AmmoExpress.Buffs.Tetanus.Description
+}
+
+KillTheSoCalledGods: {
+	DisplayName: Kill The So Called Gods
+	Description: Mods.BulletExpress.Buffs.KillTheSoCalledGods.Description
+}
+
+JyoratBless: {
+	DisplayName: Jyorat Bless
+	Description: Mods.BulletExpress.Buffs.JyoratBless.Description
+}
+
+ManganeseFlog: {
+	Description: Mods.BulletExpress.Buffs.ManganeseFlog.Description
+	DisplayName: Manganese Flog
+}
+
+AnkhCharmBless: {
+	DisplayName: Ankh Charm Bless
+	Description: Mods.BulletExpress.Buffs.AnkhCharmBless.Description
+}
+
+ChineseFastFood: {
+	DisplayName: Chinese Fast Food
+	Description: Mods.BulletExpress.Buffs.ChineseFastFood.Description
+}
+
+MicroChocolate: {
+	DisplayName: Micro Chocolate
+	Description: Mods.BulletExpress.Buffs.MicroChocolate.Description
+}
+
+PepsiCola: {
+	DisplayName: Pepsi Cola
+	Description: Mods.BulletExpress.Buffs.PepsiCola.Description
+}
+
+WalnutDew: {
+	DisplayName: Walnut Dew
+	Description: Mods.BulletExpress.Buffs.WalnutDew.Description
+}
+
+AutumnLeave: {
+	DisplayName: Autumn Leave
+	Description: Mods.BulletExpress.Buffs.AutumnLeave.Description
+}
+
+SuperSwiftnessPotion: {
+	Description: Mods.BulletExpress.Buffs.SuperSwiftnessPotion.Description
+	DisplayName: Super Swiftness Potion
+}
+
+SuperSummonPotion: {
+	Description: Mods.BulletExpress.Buffs.SuperSummonPotion.Description
+	DisplayName: Super Summon Potion
+}
+
+SuperLiquidLightPotion: {
+	Description: Mods.BulletExpress.Buffs.SuperLiquidLightPotion.Description
+	DisplayName: Super Liquid Light Potion
+}
+
+SuperLifeSlagPotion: {
+	Description: Mods.BulletExpress.Buffs.SuperLifeSlagPotion.Description
+	DisplayName: Super Life Slag Potion
+}
+
+PotencySwiftnessPotion: {
+	Description: Mods.BulletExpress.Buffs.PotencySwiftnessPotion.Description
+	DisplayName: Potency Swiftness Potion
+}
+
+PotencySummonPotion: {
+	Description: Mods.BulletExpress.Buffs.PotencySummonPotion.Description
+	DisplayName: Potency Summon Potion
+}
+
+LiquidLightPotion: {
+	Description: Mods.BulletExpress.Buffs.LiquidLightPotion.Description
+	DisplayName: Liquid Light Potion
+}
+
+LifeSlagPotion: {
+	Description: Mods.BulletExpress.Buffs.LifeSlagPotion.Description
+	DisplayName: Life Slag Potion
+}
+
+SuperNutrientPotion: {
+	Description: Mods.BulletExpress.Buffs.SuperNutrientPotion.Description
+	DisplayName: Super Nutrient Potion
+}
+
+NutrientPotion: {
+	Description: Mods.BulletExpress.Buffs.NutrientPotion.Description
+	DisplayName: Nutrient Potion
+}
+
+PotencyMagicSlagPotion: {
+	Description: Mods.BulletExpress.Buffs.PotencyMagicSlagPotion.Description
+	DisplayName: Potency Magic Slag Potion
+}
+
+MagicSlagPotion: {
+	Description: Mods.BulletExpress.Buffs.MagicSlagPotion.Description
+	DisplayName: Magic Slag Potion
+}
+
+SuperHatePotion: {
+	Description: Mods.BulletExpress.Buffs.SuperHatePotion.Description
+	DisplayName: Super Hate Potion
+}
+
+HatePotion: {
+	Description: Mods.BulletExpress.Buffs.HatePotion.Description
+	DisplayName: Hate Potion
+}
+
+GilicifiedII: {
+	Description: Mods.BulletExpress.Buffs.GilicifiedII.Description
+	DisplayName: Gilicified I I
+}
+
+GilicifiedI: {
+	Description: Mods.BulletExpress.Buffs.GilicifiedI.Description
+	DisplayName: Gilicified I
+}
+
+HealOrFatal: {
+	Description: Mods.BulletExpress.Buffs.HealOrFatal.Description
+	DisplayName: Heal Or Fatal
+}
+
+ENDFlog: {
+	DisplayName: E N D Flog
+	Description: Mods.BulletExpress.Buffs.ENDFlog.Description
+}
+
+FlogI: {
+	DisplayName: Flog I
+	Description: Mods.BulletExpress.Buffs.FlogI.Description
+}
+
+LightMark: {
+	DisplayName: Light Mark
+	Description: Mods.BulletExpress.Buffs.LightMark.Description
+}
+
+BurningFire: {
+	DisplayName: Burning Fire
+	Description: Mods.BulletExpress.Buffs.BurningFire.Description
+}
+
+GardeningHunt: {
+	DisplayName: Gardening Hunt
+	Description: Mods.BulletExpress.Buffs.GardeningHunt.Description
+}
+
+TerminalHelix: {
+	DisplayName: Terminal Helix
+	Description: Mods.BulletExpress.Buffs.TerminalHelix.Description
+}

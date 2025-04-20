@@ -1,0 +1,139 @@
+ManganeseBullet: {
+	DisplayName: Manganese Bullet
+	Tooltip: Summoner + 12 damage
+}
+
+CopperBullet: {
+	DisplayName: Copper Bullet
+	Tooltip: Penetrate 2 enemy
+}
+
+TinBullet: {
+	DisplayName: Tin Bullet
+	Tooltip: Hit releases 25% damage tin slag
+}
+
+IronBullet: {
+	DisplayName: Iron Bullet
+	Tooltip: Cause in tetanus
+}
+
+LeadBullet: {
+	DisplayName: Lead Bullet
+	Tooltip: Cause in lead poisoning
+}
+
+DecayBullet: {
+	DisplayName: Decay Bullet
+	Tooltip: Causes in tetanus, endurance + 6%
+}
+
+CrimsonBullet: {
+	DisplayName: Crimson Bullet
+	Tooltip: Causes in ichor
+}
+
+HellstoneBullet: {
+	DisplayName: Hellstone Bullet
+	Tooltip: Hit releases 33% damage DaylightExplodes and Molotov Sparkle
+}
+
+CobaltBullet: {
+	DisplayName: Cobalt Bullet
+	Tooltip: Penetrate 3 enemy, Hit Release Cobalt Slash
+}
+
+PalladiumBullet: {
+	DisplayName: Palladium Bullet
+	Tooltip: Hit Restores 1 HP, High speed flight speed
+}
+
+MythrilBullet: {
+	DisplayName: Mythril Bullet
+	Tooltip: If there are enemies nearby, a tracking bullet is released every 0.25 seconds, Deals 50% damage
+}
+
+OrichalcumBullet: {
+	DisplayName: Orichalcum Bullet
+	Tooltip: Hit are sent off screen, track, through the wall, release petals ignore
+}
+
+AdamantiteBullet: {
+	DisplayName: Adamantite Bullet
+	Tooltip: Penetrate 1 enemy，high flight speed、high crit rate
+}
+
+TitaniumBullet: {
+	DisplayName: Titanium Bullet
+	Tooltip: Hit releases 50% damage rotating petal
+}
+
+HolyShelterBullet: {
+	DisplayName: Holy Shelter Bullet
+	Tooltip: Penetrate 1 enemy, hit and receive the HolySanctuary, life regeneration + 1, defence +7, speed movement +20%
+}
+
+ShroomiteBullet: {
+	DisplayName: Shroomite Bullet
+	Tooltip: Penetrate 2 enemy, mushrooms that randomly release 200% damage while flying
+}
+
+SpectreBullet: {
+	DisplayName: Spectre Bullet
+	Tooltip: Penetrate 7 enemy，track、automatic switching of attack targets
+}
+
+SpiderBullet: {
+	Tooltip: ""
+	DisplayName: Spider Bullet
+}
+
+ShadowFlameBullet: {
+	Tooltip: ""
+	DisplayName: Shadow Flame Bullet
+}
+
+HorizonTearBullet: {
+	DisplayName: Horizon Tear Bullet
+	Tooltip: ""
+}
+
+IceSnowBullet: {
+	DisplayName: Ice Snow Bullet
+	Tooltip: ""
+}
+
+RubberBullet: {
+	Tooltip: ""
+	DisplayName: Rubber Bullet
+}
+
+HoundiusShootiusFireball: {
+	Tooltip: ""
+	DisplayName: Houndius Shootius Fireball
+}
+
+BeeBullet: {
+	Tooltip: ""
+	DisplayName: Bee Bullet
+}
+
+EarlBullet: {
+	Tooltip: ""
+	DisplayName: Earl Bullet
+}
+
+MapleLeaveBullet: {
+	DisplayName: Maple Leave Bullet
+	Tooltip: ""
+}
+
+BookStaffShotBullet: {
+	DisplayName: Book Staff Shot Bullet
+	Tooltip: ""
+}
+
+HighVelocityNanoBullet: {
+	DisplayName: High Velocity Nano Bullet
+	Tooltip: ""
+}

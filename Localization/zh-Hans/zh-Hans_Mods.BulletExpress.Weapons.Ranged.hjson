@@ -1,0 +1,243 @@
+Glacier: {
+	DisplayName: 冰川
+	Tooltip: <绘制Dr.蜡烛猫>
+}
+
+Nibbled: {
+	DisplayName: 蚕食
+	Tooltip: <绘制Dr.蜡烛猫>
+}
+
+PolarisFlamethrower: {
+	Tooltip: ""
+	DisplayName: 北极星火焰喷射器
+}
+
+MAGIII: {
+	Tooltip: ""
+	DisplayName: MAG III
+}
+
+SeaBlueLauncher: {
+	Tooltip: ""
+	DisplayName: 海蓝发射器
+}
+
+ManganeseAmmoLauncher: {
+	Tooltip: ""
+	DisplayName: 锰弹药发射器
+}
+
+CopperAmmoLauncher: {
+	DisplayName: 铜弹药发射器
+	Tooltip: ""
+}
+
+TinAmmoLauncher: {
+	DisplayName: 锡弹药发射器
+	Tooltip: ""
+}
+
+IronAmmoLauncher: {
+	DisplayName: 铁弹药发射器
+	Tooltip: ""
+}
+
+LeadAmmoLauncher: {
+	DisplayName: 铅弹药发射器
+	Tooltip: ""
+}
+
+SilverAmmoLauncher: {
+	DisplayName: 银弹药发射器
+	Tooltip: ""
+}
+
+TungstenAmmoLauncher: {
+	DisplayName: 钨弹药发射器
+	Tooltip: ""
+}
+
+GoldAmmoLauncher: {
+	DisplayName: 黄金弹药发射器
+	Tooltip: ""
+}
+
+PlatinumAmmoLauncher: {
+	DisplayName: 铂金弹药发射器
+	Tooltip: ""
+}
+
+ExplodingBowWhiteWing: {
+	DisplayName: 爆炸弓白翼
+	Tooltip: ""
+}
+
+LemonJuiceBox: {
+	DisplayName: 柠檬果汁盒
+	Tooltip: <绘制Dr.蜡烛猫>
+}
+
+ChlorophyteSubmachineGun: {
+	DisplayName: 叶绿冲锋枪
+	Tooltip: ""
+}
+
+Barren: {
+	DisplayName: 贫瘠
+	Tooltip: ""
+}
+
+AdamantiteAmmoLauncher: {
+	DisplayName: 精金弹药发射器
+	Tooltip: ""
+}
+
+BiscuitResidueEmitter: {
+	DisplayName: 饼干残渣发射器
+	Tooltip: ""
+}
+
+CobaltAmmoLauncher: {
+	DisplayName: 钴弹药发射器
+	Tooltip: ""
+}
+
+HellHeavyArtillery: {
+	DisplayName: 地狱重炮
+	Tooltip: ""
+}
+
+Intimidate: {
+	DisplayName: 恐吓
+	Tooltip: ""
+}
+
+NewYearLauncher: {
+	DisplayName: 新年发射器
+	Tooltip: ""
+}
+
+PalladiumAmmoLauncher: {
+	DisplayName: 钯金弹药发射器
+	Tooltip: ""
+}
+
+ProsperityLauncher: {
+	DisplayName: 繁荣发射器
+	Tooltip: ""
+}
+
+SakuraPowderEmitter: {
+	DisplayName: 樱花粉末发射器
+	Tooltip: ""
+}
+
+TitaniumAmmoLauncher: {
+	DisplayName: 钛金弹药发射器
+	Tooltip: ""
+}
+
+VortexMourners: {
+	DisplayName: 漩涡哀悼者
+	Tooltip: ""
+}
+
+Shadow: {
+	DisplayName: 影子
+	Tooltip: ""
+}
+
+Violin: {
+	DisplayName: 小提琴
+	Tooltip: ""
+}
+
+Violoncello: {
+	DisplayName: 大提琴
+	Tooltip: ""
+}
+
+CandyWaferDartGun: {
+	DisplayName: 糖果威化飞镖枪
+	Tooltip: ""
+}
+
+CandyWaferFlyDartGun: {
+	DisplayName: 糖果威化蝇镖枪
+	Tooltip: ""
+}
+
+CandyWaferRifle: {
+	DisplayName: 糖果威化步枪
+	Tooltip: ""
+}
+
+CompositeDartGun: {
+	DisplayName: 复合飞镖枪
+	Tooltip: ""
+}
+
+LiveDartGun: {
+	DisplayName: 活体飞镖枪
+	Tooltip: ""
+}
+
+ManganeseBow: {
+	DisplayName: 锰弓
+	Tooltip: ""
+}
+
+Start: {
+	DisplayName: 出发
+	Tooltip: ""
+}
+
+CelebrationMk1: {
+	DisplayName: 喜庆弹射器MK1
+	Tooltip: ""
+}
+
+EmuCatsSubmachineGun: {
+	DisplayName: 鸸鹋猫冲锋枪
+	Tooltip: 她离开人群，去寻找更广阔的地方
+}
+
+Mixer: {
+	DisplayName: 搅拌机
+	Tooltip: ""
+}
+
+Moerjiekos: {
+	DisplayName: 默尔界柯斯
+	Tooltip: ""
+}
+
+KnifeDance: {
+	DisplayName: 刀舞
+	Tooltip: ""
+}
+
+WasteSoilShotgun: {
+	DisplayName: 废土猎枪
+	Tooltip: ""
+}
+
+WasteSoilRifle: {
+	DisplayName: 废土步枪
+	Tooltip: ""
+}
+
+LotusSeedsBurstOut: {
+	Tooltip: ""
+	DisplayName: 莲子迸发
+}
+
+ExplodingBowVioletFlame: {
+	DisplayName: 爆炸弓紫焰
+	Tooltip:
+		'''
+		我们留下的一切将流向何方，
+		哪个文明可能会再次捡起它并且共存？
+		'''
+}

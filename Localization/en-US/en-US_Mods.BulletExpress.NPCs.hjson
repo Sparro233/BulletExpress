@@ -1,0 +1,24 @@
+YoungBudSlime.DisplayName: Young Bud Slime
+StormSlime.DisplayName: Storm Slime
+SiltSlime.DisplayName: Silt Slime
+MushroomSlime.DisplayName: Mushroom Slime
+CrystalSlime.DisplayName: Crystal Slime
+CreamSlime.DisplayName: Cream Slime
+
+RainScales: {
+	TownNPCMood: {
+		Princess_LovesNPC: 我喜欢 {NPCName}。
+		LikeNPC_Princess: 我喜欢 {NPCName}。
+		HateCrowded: 我讨厌这么拥挤。
+		DislikeCrowded: 我不喜欢这么拥挤。
+		LoveSpace: 我非常喜欢有这么大的空间。
+		FarFromHome: 我离家太远了。
+		NoHome: 我讨厌没有家。
+		Content: 我很满足。
+	}
+
+	DisplayName: Rain Scales
+}
+
+StakesFishRampage.DisplayName: Stakes Fish Rampage
+StakesFishLight.DisplayName: Stakes Fish Light

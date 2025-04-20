@@ -1,0 +1,94 @@
+PinkGelProtocol: {
+	Tooltip: ""
+	DisplayName: 粉红凝胶实验方案
+}
+
+ChlorophyllProtocol: {
+	Tooltip: ""
+	DisplayName: 叶绿素协议
+}
+
+AshesProtocol: {
+	Tooltip: ""
+	DisplayName: 灰烬协议
+}
+
+FossilHammer: {
+	Tooltip: ""
+	DisplayName: 化石锤
+}
+
+FossilAxe: {
+	Tooltip: ""
+	DisplayName: 化石斧
+}
+
+StormPick: {
+	Tooltip: ""
+	DisplayName: 风暴镐
+}
+
+StormAxe: {
+	Tooltip: ""
+	DisplayName: 风暴斧
+}
+
+StormAPickaxe: {
+	Tooltip: ""
+	DisplayName: 风暴刃镐
+}
+
+ManganesPick: {
+	Tooltip: ""
+	DisplayName: 锰镐
+}
+
+ManganesHammer: {
+	Tooltip: ""
+	DisplayName: 锰锤
+}
+
+ManganeseAxe: {
+	Tooltip: ""
+	DisplayName: 锰斧
+}
+
+MagicPick: {
+	Tooltip: ""
+	DisplayName: 魔力镐
+}
+
+MagicAxe: {
+	Tooltip: ""
+	DisplayName: 魔力斧
+}
+
+MagicAPickaxe: {
+	Tooltip: ""
+	DisplayName: 魔力刃镐
+}
+
+LightPick: {
+	Tooltip: ""
+	DisplayName: 光镐
+}
+
+LightAxe: {
+	Tooltip: ""
+	DisplayName: 光斧
+}
+
+LightAPickaxe: {
+	Tooltip: ""
+	DisplayName: 光刃镐
+}
+
+VoltagePick: {
+	Tooltip: ""
+	DisplayName: 电压镐
+}
+
+GiliconAPickaxe: {
+	Tooltip: ""
+	DisplayName: 矽刃镐
+}

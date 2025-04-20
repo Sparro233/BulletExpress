@@ -1,0 +1,168 @@
+ChlorophyllCourier: {
+	Tooltip: ""
+	DisplayName: 叶绿素快递
+}
+
+AshesCourier: {
+	Tooltip: ""
+	DisplayName: 灰烬快递
+}
+
+EncapsulatedGilicon: {
+	DisplayName: 封装矽
+	Tooltip:
+		'''
+		一种危险的放射性元素，其辐射能穿透玻璃以外的任何东西，
+		具有神经毒性，可以破坏电子设施。
+		'''
+}
+
+LightBar: {
+	DisplayName: 光锭
+	Tooltip: ""
+}
+
+LightCrystal: {
+	DisplayName: 光水晶
+	Tooltip: ""
+}
+
+LightPowder: {
+	DisplayName: 光粉末
+	Tooltip: ""
+}
+
+MagicBar: {
+	DisplayName: 魔力锭
+	Tooltip: ""
+}
+
+MagicCrystal: {
+	DisplayName: 魔力水晶
+	Tooltip: ""
+}
+
+MagicPowder: {
+	DisplayName: 魔力粉末
+	Tooltip: ""
+}
+
+StormBar: {
+	DisplayName: 风暴锭
+	Tooltip: ""
+}
+
+StormCrystal: {
+	DisplayName: 风暴结晶
+	Tooltip: ""
+}
+
+ManganeseBar: {
+	DisplayName: 锰锭
+	Tooltip: ""
+}
+
+ManganeseOre: {
+	DisplayName: 锰矿
+	Tooltip: ""
+}
+
+WheatSeed: {
+	Tooltip: ""
+	DisplayName: 小麦种子
+}
+
+WheatEar: {
+	Tooltip: ""
+	DisplayName: 小麦穗
+}
+
+ManganeseBrick: {
+	Tooltip: ""
+	DisplayName: 锰砖
+}
+
+DirtPlatform: {
+	Tooltip: ""
+	DisplayName: 泥土平台
+}
+
+SteelTube: {
+	Tooltip: ""
+	DisplayName: 钢管
+}
+
+SlimeCream: {
+	Tooltip: ""
+	DisplayName: 史莱姆奶油
+}
+
+RefinedSugarBottle: {
+	Tooltip: 碳水化合物
+	DisplayName: 精制糖瓶
+}
+
+RefinedSaltBottle: {
+	Tooltip: 氯化钠
+	DisplayName: 精制盐瓶
+}
+
+Flour: {
+	Tooltip: ""
+	DisplayName: 面粉
+}
+
+VoltageBar: {
+	Tooltip: ""
+	DisplayName: 电压锭
+}
+
+GiliconBar: {
+	Tooltip: ""
+	DisplayName: 矽锭
+}
+
+DesertGeneratingDevice: {
+	DisplayName: 沙漠生成装置
+	Tooltip: ""
+}
+
+InkCopperBar: {
+	DisplayName: 墨铜锭
+	Tooltip: ""
+}
+
+InkGoldBar: {
+	DisplayName: 墨金锭
+	Tooltip: ""
+}
+
+InkIronBar: {
+	DisplayName: 墨铁锭
+	Tooltip: ""
+}
+
+InkSilverBar: {
+	DisplayName: 墨银锭
+	Tooltip: ""
+}
+
+TangerineCoconut: {
+	DisplayName: 橘子椰子
+	Tooltip: ""
+}
+
+StaleNote: {
+	DisplayName: 陈旧的注释
+	Tooltip: ""
+}
+
+StrayCotton: {
+	DisplayName: 流浪棉花
+	Tooltip: 它们流浪着，就像流浪在星空的我们
+}
+
+StrayCottonSeed: {
+	DisplayName: 流浪棉花种子
+	Tooltip: ""
+}

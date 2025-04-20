@@ -1,0 +1,64 @@
+GlassLetterOpener: {
+	DisplayName: Glass Letter Opener
+	Tooltip: ""
+}
+
+GreetingCard: {
+	DisplayName: Greeting Card
+	Tooltip: ""
+}
+
+InkGlassSword: {
+	DisplayName: Ink Glass Sword
+	Tooltip: ""
+}
+
+Kristia: {
+	DisplayName: Kristia
+	Tooltip: ""
+}
+
+LetterOpener: {
+	DisplayName: Letter Opener
+	Tooltip: ""
+}
+
+LightLetterOpener: {
+	DisplayName: Light Letter Opener
+	Tooltip: ""
+}
+
+LightMarkLetterOpener: {
+	DisplayName: Light Mark Letter Opener
+	Tooltip: ""
+}
+
+MagicLetterOpener: {
+	DisplayName: Magic Letter Opener
+	Tooltip: ""
+}
+
+Osteoporosis: {
+	DisplayName: Osteoporosis
+	Tooltip: ""
+}
+
+SolarScissors: {
+	DisplayName: Solar Scissors
+	Tooltip: ""
+}
+
+SpectreLetterOpener: {
+	DisplayName: Spectre Letter Opener
+	Tooltip: ""
+}
+
+StormLetterOpener: {
+	DisplayName: Storm Letter Opener
+	Tooltip: ""
+}
+
+TimeEnd: {
+	DisplayName: Time End
+	Tooltip: ""
+}

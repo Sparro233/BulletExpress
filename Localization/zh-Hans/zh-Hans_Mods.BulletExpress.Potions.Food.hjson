@@ -1,0 +1,36 @@
+SlimeMilk: {
+	Tooltip: ""
+	DisplayName: 史莱姆奶
+}
+
+WalnutDew: {
+	DisplayName: 核桃露
+	Tooltip:
+		'''
+		魔力消耗减少5%
+		脑补充剂
+		'''
+}
+
+MicroChocolate: {
+	DisplayName: 微型巧克力
+	Tooltip:
+		'''
+		生命再生增加1
+		伤害减免增加1
+		'''
+}
+
+PepsiCola: {
+	DisplayName: 百事可乐
+	Tooltip: 防御增加2
+}
+
+ChineseFastFood: {
+	DisplayName: 中式快餐
+	Tooltip:
+		'''
+		生命再生增加1
+		伤害减免增加1
+		'''
+}

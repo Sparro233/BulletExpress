@@ -1,0 +1,104 @@
+RocketZ: {
+	DisplayName: Rocket Z
+	Tooltip: ""
+}
+
+TNTDrum: {
+	Tooltip: ""
+	DisplayName: TNT Drum
+}
+
+GoldSquareHoleMoney: {
+	Tooltip: ""
+	DisplayName: Gold Square Hole Money
+}
+
+GoldIngot: {
+	Tooltip: ""
+	DisplayName: Gold Ingot
+}
+
+WoodGrenade: {
+	DisplayName: Wood Grenade
+	Tooltip: ""
+}
+
+BetsyRocket: {
+	DisplayName: Betsy Rocket
+	Tooltip: ""
+}
+
+BlackBolt: {
+	DisplayName: Black Bolt
+	Tooltip: ""
+}
+
+ElectrosphereMissile: {
+	DisplayName: Electrosphere Missile
+	Tooltip: ""
+}
+
+MeteorRocket: {
+	DisplayName: Meteor Rocket
+	Tooltip: ""
+}
+
+VortexBeaterRocket: {
+	DisplayName: Vortex Beater Rocket
+	Tooltip: ""
+}
+
+AvalancheGrenade: {
+	DisplayName: Avalanche Grenade
+	Tooltip: ""
+}
+
+CursedFlameGrenade: {
+	DisplayName: Cursed Flame Grenade
+	Tooltip: ""
+}
+
+IchorGrenade: {
+	DisplayName: Ichor Grenade
+	Tooltip: ""
+}
+
+SpiderGrenade: {
+	DisplayName: Spider Grenade
+	Tooltip: ""
+}
+
+JackOLanternGrenade: {
+	DisplayName: Jack O Lantern Grenade
+	Tooltip: ""
+}
+
+BeeGrenade: {
+	DisplayName: Bee Grenade
+	Tooltip: ""
+}
+
+Cookie: {
+	DisplayName: Cookie
+	Tooltip: ""
+}
+
+ChemicalRocket: {
+	DisplayName: Chemical Rocket
+	Tooltip: ""
+}
+
+Sakura: {
+	DisplayName: Sakura
+	Tooltip: ""
+}
+
+RudderTorpedo: {
+	DisplayName: Rudder Torpedo
+	Tooltip: ""
+}
+
+HuraCrepitan: {
+	DisplayName: Hura Crepitan
+	Tooltip: ""
+}

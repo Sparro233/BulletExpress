@@ -1,0 +1,184 @@
+CrimsonBless: {
+	DisplayName: 腥红护佑
+	Description: 获得少许护佑
+}
+
+DecayBless: {
+	DisplayName: 衰变护佑
+	Description: 获得少许护佑
+}
+
+HolyBless: {
+	DisplayName: 圣护佑
+	Description: 移动力提升！
+}
+
+LeadPoisoning: {
+	DisplayName: 铅中毒
+	Description: 不要吃铅弹命中的猎物！
+}
+
+Tetanus: {
+	DisplayName: 破伤风
+	Description: 破伤风梭菌在你的伤口肆虐
+}
+
+KillTheSoCalledGods: {
+	DisplayName: 杀死所谓神明
+	Description: 杀死你
+}
+
+JyoratBless: {
+	DisplayName: 婕拉特护佑
+	Description: 获得少许护佑
+}
+
+ManganeseFlog: {
+	Description: +12
+	DisplayName: 锰鞭打
+}
+
+AnkhCharmBless: {
+	DisplayName: 十字章护佑
+	Description: 获得少许护佑
+}
+
+ChineseFastFood: {
+	DisplayName: 中餐快餐
+	Description: 味道还不错，但不够饱
+}
+
+MicroChocolate: {
+	DisplayName: 微型巧克力
+	Description: 真的微型吗
+}
+
+PepsiCola: {
+	DisplayName: 百事可乐
+	Description: 它太甜了，但是可口可乐的气太多了
+}
+
+WalnutDew: {
+	DisplayName: 核桃露
+	Description: 多喝六个核桃
+}
+
+AutumnLeave: {
+	DisplayName: 秋叶
+	Description: 支离破碎
+}
+
+SuperSwiftnessPotion: {
+	Description: 获得少许护佑
+	DisplayName: 超级迅捷药水
+}
+
+SuperSummonPotion: {
+	Description: 获得少许护佑.SuperSummonPotion.Description
+	DisplayName: Super Summon Potion
+}
+
+SuperLiquidLightPotion: {
+	Description: 获得少许护佑.SuperLiquidLightPotion.Description
+	DisplayName: Super Liquid Light Potion
+}
+
+SuperLifeSlagPotion: {
+	Description: 获得少许护佑.SuperLifeSlagPotion.Description
+	DisplayName: Super Life Slag Potion
+}
+
+PotencySwiftnessPotion: {
+	Description: 获得少许护佑.PotencySwiftnessPotion.Description
+	DisplayName: Potency Swiftness Potion
+}
+
+PotencySummonPotion: {
+	Description: 获得少许护佑.PotencySummonPotion.Description
+	DisplayName: Potency Summon Potion
+}
+
+LiquidLightPotion: {
+	Description: 获得少许护佑.LiquidLightPotion.Description
+	DisplayName: Liquid Light Potion
+}
+
+LifeSlagPotion: {
+	Description: 获得少许护佑.LifeSlagPotion.Description
+	DisplayName: Life Slag Potion
+}
+
+SuperNutrientPotion: {
+	Description: 获得少许护佑.SuperNutrientPotion.Description
+	DisplayName: 超级营养药水
+}
+
+NutrientPotion: {
+	Description: 获得少许护佑
+	DisplayName: 营养药水
+}
+
+PotencyMagicSlagPotion: {
+	Description: 获得少许护佑
+	DisplayName: 强效魔力熔渣药水
+}
+
+MagicSlagPotion: {
+	Description: 获得少许护佑
+	DisplayName: 魔力熔渣药水
+}
+
+SuperHatePotion: {
+	Description: 获得少许护佑
+	DisplayName: 超级仇恨药水
+}
+
+HatePotion: {
+	Description: 获得少许护佑
+	DisplayName: 仇恨药水
+}
+
+GilicifiedII: {
+	Description: ■■■
+	DisplayName: ■■ II 型
+}
+
+GilicifiedI: {
+	Description: 宛如吞下刀片
+	DisplayName: 矽化 I 型
+}
+
+HealOrFatal: {
+	Description: 代价是
+	DisplayName: 治愈或致命
+}
+
+ENDFlog: {
+	// DisplayName: E N D Flog
+	// Description: Mods.BulletExpress.Buffs.ENDFlog.Description
+}
+
+FlogI: {
+	// DisplayName: Flog I
+	// Description: Mods.BulletExpress.Buffs.FlogI.Description
+}
+
+LightMark: {
+	// DisplayName: Light Mark
+	// Description: Mods.BulletExpress.Buffs.LightMark.Description
+}
+
+BurningFire: {
+	// DisplayName: Burning Fire
+	// Description: Mods.BulletExpress.Buffs.BurningFire.Description
+}
+
+GardeningHunt: {
+	// DisplayName: Gardening Hunt
+	// Description: Mods.BulletExpress.Buffs.GardeningHunt.Description
+}
+
+TerminalHelix: {
+	// DisplayName: Terminal Helix
+	// Description: Mods.BulletExpress.Buffs.TerminalHelix.Description
+}

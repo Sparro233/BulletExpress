@@ -1,0 +1,93 @@
+EmperorSNewShoes: {
+	Tooltip: ""
+	DisplayName: Emperor S New Shoes
+}
+
+EmperorSNewCrown: {
+	Tooltip: ""
+	DisplayName: Emperor S New Crown
+}
+
+EmperorSNewClothes: {
+	Tooltip: ""
+	DisplayName: Emperor S New Clothes
+}
+
+SleepingCrown: {
+	DisplayName: Sleeping Crown
+	Tooltip:
+		'''
+		AnkhCharmBless
+		Life max +20
+		Life regen count +2
+		'''
+	SetBonus:
+		'''
+		Immune magic disease
+		Suction heart range increases
+		Life regen count +10
+		'''
+}
+
+SleepingPajamas: {
+	DisplayName: Sleeping Pajamas
+	Tooltip:
+		'''
+		Life max +50
+		Life regen count +5
+		'''
+}
+
+SleepingShoes: {
+	DisplayName: Sleeping Shoes
+	Tooltip:
+		'''
+		Life max +80
+		Life regen count +8
+		'''
+}
+
+StrawBeetle: {
+	DisplayName: Straw Beetle
+	Tooltip:
+		'''
+		Horti damage +12%
+		Endurance +10%
+		<绘制Dr.蜡烛猫>
+		'''
+}
+
+StrawHats: {
+	DisplayName: Straw Hats
+	Tooltip: Horti damage +12%
+	SetBonus: Endurance+10%
+}
+
+StrawSkirt: {
+	DisplayName: Straw Skirt
+	Tooltip:
+		'''
+		Horti damage +12%
+		<绘制Dr.蜡烛猫>
+		'''
+}
+
+ManganeseHelmet: {
+	DisplayName: Manganese Helmet
+	Tooltip: ""
+	SetBonus: Summon damage +40%
+}
+
+ManganeseBreastplate: {
+	DisplayName: Manganese Breastplate
+	Tooltip:
+		'''
+		Max minions +2
+		Magic max +20
+		'''
+}
+
+ManganeseLeggings: {
+	DisplayName: Manganese Leggings
+	Tooltip: ""
+}

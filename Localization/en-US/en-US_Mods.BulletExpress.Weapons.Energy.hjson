@@ -1,0 +1,24 @@
+ChemicalTank: {
+	DisplayName: Chemical Tank
+	Tooltip: ""
+}
+
+Jyorat: {
+	DisplayName: Jyorat
+	Tooltip: ""
+}
+
+LightHeartPiercingBow: {
+	DisplayName: Light Heart Piercing Bow
+	Tooltip: ""
+}
+
+MagicHeartPiercingBow: {
+	DisplayName: Magic Heart Piercing Bow
+	Tooltip: ""
+}
+
+DespairZero: {
+	DisplayName: Despair Zero
+	Tooltip: ""
+}

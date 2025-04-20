@@ -1,0 +1,24 @@
+YoungBudSlime.DisplayName: 幼芽史莱姆
+StormSlime.DisplayName: 风暴史莱姆
+SiltSlime.DisplayName: 淤泥史莱姆
+MushroomSlime.DisplayName: 蘑菇史莱姆
+CrystalSlime.DisplayName: 水晶史莱姆
+CreamSlime.DisplayName: 奶油史莱姆
+
+RainScales: {
+	TownNPCMood: {
+		Princess_LovesNPC: 我喜欢 {NPCName}。
+		LikeNPC_Princess: 我喜欢 {NPCName}。
+		HateCrowded: 我的情绪可能会伤害到其他人。
+		DislikeCrowded: 热闹些也好。
+		LoveSpace: 好地方！
+		FarFromHome: 或许我再也回不去……
+		NoHome: 可以给我一个固定的鸟巢吗？
+		Content: 感谢。
+	}
+
+	DisplayName: 雨量秤
+}
+
+StakesFishRampage.DisplayName: 尖桩鱼狂暴
+StakesFishLight.DisplayName: 尖桩鱼光

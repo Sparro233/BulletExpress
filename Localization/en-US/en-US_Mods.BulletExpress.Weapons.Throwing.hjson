@@ -1,0 +1,94 @@
+PinkGelProtocol: {
+	Tooltip: ""
+	DisplayName: Pink Gel Protocol
+}
+
+ChlorophyllProtocol: {
+	Tooltip: ""
+	DisplayName: Chlorophyll Protocol
+}
+
+AshesProtocol: {
+	Tooltip: ""
+	DisplayName: Ashes Protocol
+}
+
+FossilHammer: {
+	Tooltip: ""
+	DisplayName: Fossil Hammer
+}
+
+FossilAxe: {
+	Tooltip: ""
+	DisplayName: Fossil Axe
+}
+
+StormPick: {
+	Tooltip: ""
+	DisplayName: Storm Pick
+}
+
+StormAxe: {
+	Tooltip: ""
+	DisplayName: Storm Axe
+}
+
+StormAPickaxe: {
+	Tooltip: ""
+	DisplayName: Storm A Pickaxe
+}
+
+ManganesPick: {
+	Tooltip: ""
+	DisplayName: Manganes Pick
+}
+
+ManganesHammer: {
+	Tooltip: ""
+	DisplayName: Manganes Hammer
+}
+
+ManganeseAxe: {
+	Tooltip: ""
+	DisplayName: Manganese Axe
+}
+
+MagicPick: {
+	Tooltip: ""
+	DisplayName: Magic Pick
+}
+
+MagicAxe: {
+	Tooltip: ""
+	DisplayName: Magic Axe
+}
+
+MagicAPickaxe: {
+	Tooltip: ""
+	DisplayName: Magic A Pickaxe
+}
+
+LightPick: {
+	Tooltip: ""
+	DisplayName: Light Pick
+}
+
+LightAxe: {
+	Tooltip: ""
+	DisplayName: Light Axe
+}
+
+LightAPickaxe: {
+	Tooltip: ""
+	DisplayName: Light A Pickaxe
+}
+
+VoltagePick: {
+	Tooltip: ""
+	DisplayName: Voltage Pick
+}
+
+GiliconAPickaxe: {
+	Tooltip: ""
+	DisplayName: Gilicon A Pickaxe
+}

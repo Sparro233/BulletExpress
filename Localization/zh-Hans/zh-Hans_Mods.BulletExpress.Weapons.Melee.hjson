@@ -1,0 +1,84 @@
+HandheldKillerBee: {
+	DisplayName: 手持杀人蜂
+	Tooltip: <主人Dr.蜡烛猫>
+}
+
+FossilBroadsword: {
+	DisplayName: 化石阔剑
+	Tooltip: ""
+}
+
+FossilShortsword: {
+	DisplayName: 化石短剑
+	Tooltip: ""
+}
+
+DeepSeaDagger: {
+	Tooltip: ""
+	DisplayName: 深海匕首
+}
+
+IIIVKTheUltimateKitchenKnife: {
+	DisplayName: II IV K 终极厨刀
+	Tooltip: ""
+}
+
+KitchenKnife: {
+	DisplayName: 厨刀
+	Tooltip: ""
+}
+
+ChlorophyteHalberd: {
+	DisplayName: 叶绿戟
+	Tooltip: ""
+}
+
+IronHalberd: {
+	DisplayName: 铁戟
+	Tooltip: ""
+}
+
+LeadHalberd: {
+	DisplayName: 铅戟
+	Tooltip: ""
+}
+
+MeteorHalberd: {
+	DisplayName: 流星戟
+	Tooltip: ""
+}
+
+SolarHalberd: {
+	DisplayName: 日耀戟
+	Tooltip: ""
+}
+
+WoodHalberd: {
+	DisplayName: 木戟
+	Tooltip: ""
+}
+
+LightBroadsword: {
+	DisplayName: 光阔剑
+	Tooltip: ""
+}
+
+ManganeseBroadsword: {
+	DisplayName: 锰阔剑
+	Tooltip: ""
+}
+
+InkIronGreatblade: {
+	DisplayName: 墨铁巨剑
+	Tooltip: ""
+}
+
+ManganeseShortsword: {
+	DisplayName: 锰短剑
+	Tooltip: ""
+}
+
+LightShortsword: {
+	DisplayName: 光短剑
+	Tooltip: ""
+}

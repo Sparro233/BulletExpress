@@ -1,0 +1,144 @@
+EndlessClusterRocketI: {
+	DisplayName: 无尽集束火箭 I 型
+	Tooltip: ""
+}
+
+EndlessClusterRocketII: {
+	DisplayName: 无尽集束火箭 II 型
+	Tooltip: ""
+}
+
+EndlessDryRocket: {
+	DisplayName: 无尽干火箭
+	Tooltip: ""
+}
+
+EndlessHoneyRocket: {
+	DisplayName: 无尽蜂蜜火箭
+	Tooltip: ""
+}
+
+EndlessLavaRocket: {
+	DisplayName: 无尽熔岩火箭
+	Tooltip: ""
+}
+
+EndlessMiniNukeI: {
+	DisplayName: 无尽迷你核弹 I 型
+	Tooltip: ""
+}
+
+EndlessMiniNukeII: {
+	DisplayName: 无尽迷你核弹 II型
+	Tooltip: ""
+}
+
+EndlessRocketI: {
+	DisplayName: 无尽火箭 I 型
+	Tooltip: ""
+}
+
+EndlessRocketII: {
+	DisplayName: 无尽火箭 II 型
+	Tooltip: ""
+}
+
+EndlessRocketIII: {
+	DisplayName: 无尽火箭 III 型
+	Tooltip: ""
+}
+
+EndlessRocketIV: {
+	DisplayName: 无尽火箭 IV 型
+	Tooltip: ""
+}
+
+EndlessWetRocket: {
+	DisplayName: 无尽潮湿火箭
+	Tooltip: ""
+}
+
+MolotovCocktailCourierBox: {
+	Tooltip: ""
+	DisplayName: 莫洛托夫鸡尾酒快递盒
+}
+
+EndlessChemicalRocket: {
+	DisplayName: 无尽化学火箭
+	Tooltip: ""
+}
+
+EndlessSakura: {
+	DisplayName: 无尽樱花
+	Tooltip: ""
+}
+
+EndlessRudderTorpedo: {
+	DisplayName: 无尽舵鱼雷
+	Tooltip: ""
+}
+
+EndlessHuraCrepitan: {
+	DisplayName: 无尽响盒子
+	Tooltip: ""
+}
+
+EndlessRocketZ: {
+	DisplayName: 无尽火箭 Z 型
+	Tooltip: ""
+}
+
+EndlessWoodGrenade: {
+	DisplayName: 无尽木手榴弹
+	Tooltip: ""
+}
+
+EndlessAvalancheGrenade: {
+	DisplayName: 无尽雪崩手榴弹
+	Tooltip: ""
+}
+
+EndlessBeeGrenade: {
+	DisplayName: 无尽蜜蜂手榴弹
+	Tooltip: ""
+}
+
+EndlessBetsyRocket: {
+	DisplayName: 无尽双足翼龙火箭
+	Tooltip: ""
+}
+
+EndlessCookie: {
+	DisplayName: 无尽曲奇
+	Tooltip: ""
+}
+
+EndlessCursedFlameGrenade: {
+	DisplayName: 无尽诅咒烈焰手榴弹
+	Tooltip: ""
+}
+
+EndlessElectrosphereMissile: {
+	DisplayName: 无尽电圈导弹
+	Tooltip: ""
+}
+
+EndlessIchorGrenade: {
+	DisplayName: 无尽灵液手榴弹
+	Tooltip: ""
+}
+
+EndlessJackOLanternGrenade: {
+	DisplayName: 无尽南瓜灯手榴弹
+	Tooltip: ""
+}
+
+EndlessSpiderGrenade: {
+	DisplayName: 无尽蜘蛛手榴弹
+	Tooltip: ""
+}
+
+EndlessVortexBeaterRocket: {
+	DisplayName: 无尽漩涡火箭
+	Tooltip: ""
+}

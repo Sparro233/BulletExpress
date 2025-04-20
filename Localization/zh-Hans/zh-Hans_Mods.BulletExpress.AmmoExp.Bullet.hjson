@@ -1,0 +1,214 @@
+EndlessTitaniumBullet: {
+	Tooltip: ""
+	DisplayName: 无尽钛金子弹
+}
+
+EndlessTinBullet: {
+	Tooltip: ""
+	DisplayName: 无尽锡弹
+}
+
+EndlessSpectreBullet: {
+	Tooltip: ""
+	DisplayName: 无尽幽灵子弹
+}
+
+EndlessShroomiteBullet: {
+	Tooltip: ""
+	DisplayName: 无尽蘑菇弹
+}
+
+EndlessPalladiumBullet: {
+	Tooltip: ""
+	DisplayName: 无尽钯金子弹
+}
+
+EndlessOrichalcumBullet: {
+	Tooltip: ""
+	DisplayName: 无尽山铜子弹
+}
+
+EndlessMythrilBullet: {
+	Tooltip: ""
+	DisplayName: 无尽秘银子弹
+}
+
+EndlessManganeseBullet: {
+	Tooltip: ""
+	DisplayName: 无尽锰弹
+}
+
+EndlessLeadBullet: {
+	Tooltip: ""
+	DisplayName: 无尽铅子弹
+}
+
+EndlessIronBullet: {
+	Tooltip: ""
+	DisplayName: 无尽铁子弹
+}
+
+EndlessHolyShelterBullet: {
+	Tooltip: ""
+	DisplayName: 无尽圣庇护所子弹
+}
+
+EndlessCopperBullet: {
+	Tooltip: ""
+	DisplayName: 无尽铜子弹
+}
+
+EndlessCobaltBullet: {
+	Tooltip: ""
+	DisplayName: 无尽钴子弹
+}
+
+EndlessChlorophyteBullet: {
+	Tooltip: ""
+	DisplayName: 无尽叶绿弹
+}
+
+EndlessAdamantiteBullet: {
+	Tooltip: ""
+	DisplayName: 无尽精金子弹
+}
+
+EndlessCrimsonBullet: {
+	DisplayName: 无尽腥红子弹
+	Tooltip: ""
+}
+
+EndlessDecayBullet: {
+	DisplayName: 无尽衰变子弹
+	Tooltip: ""
+}
+
+EndlessHellstoneBullet: {
+	DisplayName: 无尽狱岩弹
+	Tooltip: ""
+}
+
+EndlessSilverBullet: {
+	DisplayName: 无尽银子弹
+	Tooltip: ""
+}
+
+EndlessTungstenBullet: {
+	DisplayName: 无尽钨子弹
+	Tooltip: ""
+}
+
+EndlessCrystalBullet: {
+	DisplayName: 无尽水晶子弹
+	Tooltip: ""
+}
+
+EndlessCursedBullet: {
+	DisplayName: 无尽诅咒烈焰弹
+	Tooltip: ""
+}
+
+EndlessExplodingBullet: {
+	DisplayName: 无尽爆炸子弹
+	Tooltip: ""
+}
+
+EndlessGoldenBullet: {
+	DisplayName: 无尽金子弹
+	Tooltip: ""
+}
+
+EndlessHighVelocityBullet: {
+	DisplayName: 无尽高速子弹
+	Tooltip: ""
+}
+
+EndlessIchorBullet: {
+	DisplayName: 无尽灵液弹
+	Tooltip: ""
+}
+
+EndlessLuminiteBullet: {
+	DisplayName: 无尽夜明弹
+	Tooltip: ""
+}
+
+EndlessMeteorShot: {
+	DisplayName: 无尽流星弹
+	Tooltip: ""
+}
+
+EndlessNanoBullet: {
+	DisplayName: 无尽纳米弹
+	Tooltip: ""
+}
+
+EndlessPartyBullet: {
+	DisplayName: 无尽派对弹
+	Tooltip: ""
+}
+
+EndlessVenomBullet: {
+	DisplayName: 无尽毒液弹
+	Tooltip: ""
+}
+
+EndlessHorizonTearBullet: {
+	DisplayName: 无尽地平线撕裂弹
+	Tooltip: ""
+}
+
+EndlessIceSnowBullet: {
+	DisplayName: 无尽冰雪子弹
+	Tooltip: ""
+}
+
+EndlessShadowFlameBullet: {
+	DisplayName: 无尽暗影烈焰弹
+	Tooltip: ""
+}
+
+EndlessSpiderBullet: {
+	DisplayName: 无尽蜘蛛子弹
+	Tooltip: ""
+}
+
+EndlessRubberBullet: {
+	Tooltip: ""
+	DisplayName: 无尽橡胶弹
+}
+
+EndlessHoundiusShootiusFireball: {
+	Tooltip: ""
+	DisplayName: 无尽特斯拉火球
+}
+
+EndlessBeeBullet: {
+	Tooltip: ""
+	DisplayName: 无尽蜜蜂弹
+}
+
+EndlessEarlBullet: {
+	Tooltip: ""
+	DisplayName: 无尽伯爵子弹
+}
+
+EndlessBookStaffShotBullet: {
+	DisplayName: 无尽书籍法杖射击弹
+	Tooltip: ""
+}
+
+EndlessHighVelocityNanoBullet: {
+	DisplayName: 无尽高速纳米子弹
+	Tooltip: ""
+}
+
+EndlessMapleLeaveBullet: {
+	DisplayName: 无尽枫叶弹
+	Tooltip: ""
+}
+
+EndlessNailBullet: {
+	DisplayName: 无尽钉子弹
+	Tooltip: ""
+}

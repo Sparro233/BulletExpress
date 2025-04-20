@@ -1,0 +1,84 @@
+HandheldKillerBee: {
+	DisplayName: Handheld Killer Bee
+	Tooltip: ""
+}
+
+FossilBroadsword: {
+	DisplayName: Fossil Broadsword
+	Tooltip: ""
+}
+
+FossilShortsword: {
+	DisplayName: Fossil Shortsword
+	Tooltip: ""
+}
+
+DeepSeaDagger: {
+	Tooltip: ""
+	DisplayName: Deep Sea Dagger
+}
+
+IIIVKTheUltimateKitchenKnife: {
+	DisplayName: II IV K The Ultimate Kitchen Knife
+	Tooltip: ""
+}
+
+KitchenKnife: {
+	DisplayName: Kitchen Knife
+	Tooltip: ""
+}
+
+ChlorophyteHalberd: {
+	DisplayName: Chlorophyte Halberd
+	Tooltip: ""
+}
+
+IronHalberd: {
+	DisplayName: Iron Halberd
+	Tooltip: ""
+}
+
+LeadHalberd: {
+	DisplayName: Lead Halberd
+	Tooltip: ""
+}
+
+MeteorHalberd: {
+	DisplayName: Meteor Halberd
+	Tooltip: ""
+}
+
+SolarHalberd: {
+	DisplayName: Solar Halberd
+	Tooltip: ""
+}
+
+WoodHalberd: {
+	DisplayName: Wood Halberd
+	Tooltip: ""
+}
+
+LightBroadsword: {
+	DisplayName: Light Broadsword
+	Tooltip: ""
+}
+
+ManganeseBroadsword: {
+	DisplayName: Manganese Broadsword
+	Tooltip: ""
+}
+
+InkIronGreatblade: {
+	DisplayName: Ink Iron Greatblade
+	Tooltip: ""
+}
+
+ManganeseShortsword: {
+	DisplayName: Manganese Shortsword
+	Tooltip: ""
+}
+
+LightShortsword: {
+	DisplayName: Light Shortsword
+	Tooltip: ""
+}

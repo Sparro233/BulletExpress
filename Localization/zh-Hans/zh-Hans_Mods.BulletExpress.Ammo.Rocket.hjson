@@ -1,0 +1,104 @@
+RocketZ: {
+	DisplayName: 火箭 Z 型
+	Tooltip: ""
+}
+
+TNTDrum: {
+	Tooltip: ""
+	DisplayName: TNT滚筒
+}
+
+GoldSquareHoleMoney: {
+	Tooltip: ""
+	DisplayName: 金方孔钱
+}
+
+GoldIngot: {
+	Tooltip: ""
+	DisplayName: 金铸锭
+}
+
+WoodGrenade: {
+	DisplayName: 木手榴弹
+	Tooltip: ""
+}
+
+BetsyRocket: {
+	DisplayName: 双足翼龙火箭
+	Tooltip: ""
+}
+
+BlackBolt: {
+	DisplayName: 黑螺栓矢
+	Tooltip: ""
+}
+
+ElectrosphereMissile: {
+	DisplayName: 电圈导弹
+	Tooltip: ""
+}
+
+MeteorRocket: {
+	DisplayName: 流星火箭
+	Tooltip: ""
+}
+
+VortexBeaterRocket: {
+	DisplayName: 漩涡火箭
+	Tooltip: ""
+}
+
+AvalancheGrenade: {
+	DisplayName: 雪崩手榴弹
+	Tooltip: ""
+}
+
+CursedFlameGrenade: {
+	DisplayName: 诅咒烈焰手榴弹
+	Tooltip: ""
+}
+
+IchorGrenade: {
+	DisplayName: 灵液手榴弹
+	Tooltip: ""
+}
+
+SpiderGrenade: {
+	DisplayName: 蜘蛛手榴弹
+	Tooltip: ""
+}
+
+JackOLanternGrenade: {
+	DisplayName: 南瓜灯手榴弹
+	Tooltip: ""
+}
+
+BeeGrenade: {
+	DisplayName: 蜜蜂手榴弹
+	Tooltip: ""
+}
+
+Cookie: {
+	DisplayName: 曲奇
+	Tooltip: ""
+}
+
+ChemicalRocket: {
+	DisplayName: 化学火箭
+	Tooltip: ""
+}
+
+Sakura: {
+	DisplayName: 樱花
+	Tooltip: ""
+}
+
+RudderTorpedo: {
+	DisplayName: 舵鱼雷
+	Tooltip: ""
+}
+
+HuraCrepitan: {
+	DisplayName: 响盒子
+	Tooltip: ""
+}

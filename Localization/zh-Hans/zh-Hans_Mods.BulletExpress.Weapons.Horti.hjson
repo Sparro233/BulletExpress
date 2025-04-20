@@ -1,0 +1,64 @@
+GlassLetterOpener: {
+	DisplayName: 玻璃开信刀
+	Tooltip: ""
+}
+
+GreetingCard: {
+	DisplayName: 贺卡
+	Tooltip: ""
+}
+
+InkGlassSword: {
+	DisplayName: 墨璃剑
+	Tooltip: ""
+}
+
+Kristia: {
+	DisplayName: 克里斯缇娅
+	Tooltip: ""
+}
+
+LetterOpener: {
+	DisplayName: 开信刀
+	Tooltip: ""
+}
+
+LightLetterOpener: {
+	DisplayName: 光开信刀
+	Tooltip: ""
+}
+
+LightMarkLetterOpener: {
+	DisplayName: 光痕开信刀
+	Tooltip: ""
+}
+
+MagicLetterOpener: {
+	DisplayName: 魔法开信刀
+	Tooltip: ""
+}
+
+Osteoporosis: {
+	DisplayName: 骨质疏松
+	Tooltip: ""
+}
+
+SolarScissors: {
+	DisplayName: 太阳能剪刀
+	Tooltip: ""
+}
+
+SpectreLetterOpener: {
+	DisplayName: 幽灵开信刀
+	Tooltip: ""
+}
+
+StormLetterOpener: {
+	DisplayName: 风暴开信刀
+	Tooltip: ""
+}
+
+TimeEnd: {
+	DisplayName: 时间终结
+	Tooltip: ""
+}

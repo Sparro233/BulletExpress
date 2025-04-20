@@ -1,0 +1,133 @@
+CobaltBullet.DisplayName: Cobalt Bullet
+PalladiumBullet.DisplayName: Palladium Bullet
+MythrilBullet.DisplayName: Mythril Bullet
+MythrilLight.DisplayName: Mythril Light
+OrichalcumBullet.DisplayName: Orichalcum Bullet
+AdamantiteBullet.DisplayName: Adamantite Bullet
+TitaniumBullet.DisplayName: Titanium Bullet
+HolyShelterBullet.DisplayName: Holy Shelter Bullet
+ShroomiteBullet.DisplayName: Shroomite Bullet
+SpectreBullet.DisplayName: Spectre Bullet
+CopperBullet.DisplayName: Copper Bullet
+TinBullet.DisplayName: Tin Bullet
+IronBullet.DisplayName: Iron Bullet
+LeadBullet.DisplayName: Lead Bullet
+CrimsonBullet.DisplayName: Crimson Bullet
+DecayBullet.DisplayName: Decay Bullet
+HellstoneBullet.DisplayName: Hellstone Bullet
+AdamantiteArrow.DisplayName: Adamantite Arrow
+CobaltArrow.DisplayName: Cobalt Arrow
+CobaltArrowI.DisplayName: Cobalt Arrow
+CopperArrow.DisplayName: Copper Arrow
+CrimtaneArrow.DisplayName: Crimtane Arrow
+DecayArrow.DisplayName: Decay Arrow
+GoldArrow.DisplayName: Gold Arrow
+HolyShelterArrow.DisplayName: Holy Shelter Arrow
+LeadArrow.DisplayName: Lead Arrow
+MeteorArrow.DisplayName: Meteor Arrow
+MythrilArrow.DisplayName: Mythril Arrow
+OrichalcumArrow.DisplayName: Orichalcum Arrow
+PalladiumArrow.DisplayName: Palladium Arrow
+ShroomiteArrow.DisplayName: Shroomite Arrow
+SilverArrow.DisplayName: Silver Arrow
+SpectreArrow.DisplayName: Spectre Arrow
+TinArrow.DisplayName: Tin Arrow
+TitaniumArrow.DisplayName: Titanium Arrow
+PotencyCrystalDart.DisplayName: Potency Crystal Dart
+PotencyCrystalDartI.DisplayName: Potency Crystal Dart
+PotencyCursedDart.DisplayName: Potency Cursed Dart
+PotencyIchorDart.DisplayName: Potency Ichor Dart
+PotencyIchorDartI.DisplayName: Potency Ichor Dart
+SpiderBullet.DisplayName: Spider Bullet
+ShadowFlameBullet.DisplayName: Shadow Flame Bullet
+GooSArrow.DisplayName: Goo S Arrow
+GooSFeather.DisplayName: Goo S Feather
+GooSMania.DisplayName: Goo S Mania
+HorizonBullet.DisplayName: Horizon Bullet
+HorizonTear.DisplayName: Horizon Tear
+HorizonTearI.DisplayName: Horizon Tear
+IceSnowBullet.DisplayName: Ice Snow Bullet
+PhantasmArrow.DisplayName: Phantasm Arrow
+BoomCrystalArrow.DisplayName: Boom Crystal Arrow
+BoomCandyCorn.DisplayName: Boom Candy Corn
+EatersBiteArrow.DisplayName: Eaters Bite Arrow
+ManganeseArrow.DisplayName: Manganese Arrow
+BloodBolt.DisplayName: Blood Bolt
+DecorationArrow.DisplayName: Decoration Arrow
+HorizonArrow.DisplayName: Horizon Arrow
+MapleLeaveArrow.DisplayName: Maple Leave Arrow
+StormFlashbang.DisplayName: Storm Flashbang
+SouthernCrossFlashbang.DisplayName: Southern Cross Flashbang
+FlaresLightBoom.DisplayName: Flares Light Boom
+RubberBullet.DisplayName: Rubber Bullet
+ManganeseBullet.DisplayName: Manganese Bullet
+EarlBullet.DisplayName: Earl Bullet
+TNTDrum.DisplayName: TNT Drum
+TNTBoom.DisplayName: TNT Boom
+GrenadeBoom.DisplayName: Grenade Boom
+GoldSquareHoleMoney.DisplayName: Gold Square Hole Money
+GoldIngot.DisplayName: Gold Ingot
+WoodGrenade.DisplayName: Wood Grenade
+MapleLeaveBullet.DisplayName: Maple Leave Bullet
+HighVelocityNanoBullet.DisplayName: High Velocity Nano Bullet
+HorizonGrenade.DisplayName: Horizon Grenade
+AvalancheGrenade.DisplayName: Avalanche Grenade
+CursedFlameGrenade.DisplayName: Cursed Flame Grenade
+IchorGrenade.DisplayName: Ichor Grenade
+SpiderGrenade.DisplayName: Spider Grenade
+BeeGrenade.DisplayName: Bee Grenade
+ArtificialDesert.DisplayName: Artificial Desert
+ChemicalRocket.DisplayName: Chemical Rocket
+Cookie.DisplayName: Cookie
+CookieBoom.DisplayName: Cookie Boom
+CookieResidue.DisplayName: Cookie Residue
+CreamCookie.DisplayName: Cream Cookie
+MapleCookie.DisplayName: Maple Cookie
+SlagCookie.DisplayName: Slag Cookie
+ColdSakura.DisplayName: Cold Sakura
+InsularSakura.DisplayName: Insular Sakura
+PinkCrystal.DisplayName: Pink Crystal
+Sakura.DisplayName: Sakura
+SakuraBoom.DisplayName: Sakura Boom
+VortexPowder.DisplayName: Vortex Powder
+RTBoom.DisplayName: R T Boom
+Rudder.DisplayName: Rudder
+RudderMine.DisplayName: Rudder Mine
+FlyingTorpedo.DisplayName: Flying Torpedo
+Coconut.DisplayName: Coconut
+Tangerine.DisplayName: Tangerine
+TCJuice.DisplayName: TC Juice
+DrTear.DisplayName: Dr Tear
+END.DisplayName: END
+GlassLetterOpener.DisplayName: Glass Letter Opener
+GlassTear.DisplayName: Glass Tear
+Greeting.DisplayName: Greeting
+GreetingCard.DisplayName: Greeting Card
+HeavenlyWing.DisplayName: Heavenly Wing
+InkGlassSword.DisplayName: Ink Glass Sword
+KristiaTear.DisplayName: Kristia Tear
+LetterOpener.DisplayName: Letter Opener
+LightCutting.DisplayName: Light Cutting
+LightLetterOpener.DisplayName: Light Letter Opener
+LightTear.DisplayName: Light Tear
+MagicLetterOpener.DisplayName: Magic Letter Opener
+MagicTear.DisplayName: Magic Tear
+NuclearReactorFurnace.DisplayName: Nuclear Reactor Furnace
+Slash.DisplayName: Slash
+SolarScissors.DisplayName: Solar Scissors
+SolarScissorsI.DisplayName: Solar Scissors
+SpectreLetterOpener.DisplayName: Spectre Letter Opener
+SpectreTear.DisplayName: Spectre Tear
+StormCutting.DisplayName: Storm Cutting
+StormLetterOpener.DisplayName: Storm Letter Opener
+StormTear.DisplayName: Storm Tear
+SunTear.DisplayName: Sun Tear
+Tear.DisplayName: Tear
+ThermitI.DisplayName: Thermit
+TimeEnd.DisplayName: Time End
+LotusSeed.DisplayName: Lotus Seed
+LotusSeedBoom.DisplayName: Lotus Seed Boom
+LotusSeedExplode.DisplayName: Lotus Seed Explode
+FinaleChord.DisplayName: Finale Chord
+MiniSharkron.DisplayName: Mini Sharkron
+WaterSpout.DisplayName: Water Spout

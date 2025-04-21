@@ -1,6 +1,6 @@
 namespace BulletExpress.Projectiles.Ranged
 {
-    public class MAGIII : ModProjectile, ILocalizedModType
+    public class RibBarrier : ModProjectile, ILocalizedModType
     {
         public new string LocalizationCategory => "Projectiles.Ranged";
         public override void SetDefaults()

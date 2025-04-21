@@ -44,7 +44,7 @@ namespace BulletExpress.Weapons.Ranged
 
         public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback)
         {
-            Projectile.NewProjectileDirect(source, position, velocity, ModContent.ProjectileType<Projectiles.Ranged.MAGIII>(), damage, knockback, player.whoAmI);
+            Projectile.NewProjectileDirect(source, position, velocity, ModContent.ProjectileType<Projectiles.Ranged.RibBarrier>(), damage * 3, knockback, player.whoAmI);
 
             Projectile.NewProjectileDirect(source, position, velocity, type, damage, knockback, player.whoAmI);
 

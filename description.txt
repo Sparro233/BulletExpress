@@ -2,9 +2,9 @@
 试试ForanderaMod！
 
 =内容=
+物品 Item +407
 弹药 Ammo +85
 无尽弹药 Endless ammo +135
-物品 Item +407
 武器 Weapon +95
 饰品 Accessories +16
 药水 Potion +23

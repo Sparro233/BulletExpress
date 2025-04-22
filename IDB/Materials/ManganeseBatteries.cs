@@ -20,7 +20,7 @@ namespace BulletExpress.IDB.Materials
             .AddIngredient(ModContent.ItemType<ManganeseBar>())
             .AddRecipeGroup("AnyBar")
             .AddIngredient(ModContent.ItemType<Flour>())
-            .AddTile(TileID.Furnaces)
+            .AddTile(TileID.HeavyWorkBench)
             .Register();
         }
     }

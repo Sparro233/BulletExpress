@@ -28,7 +28,7 @@ namespace BulletExpress.Weapons.Ranged.Ter
 
         public override Vector2? HoldoutOffset()
         {
-            return new Vector2(-8f, 4f);
+            return new Vector2(-8f, 2f);
         }
 
         public override void OnHitNPC(Player player, NPC target, NPC.HitInfo hit, int damageDone)

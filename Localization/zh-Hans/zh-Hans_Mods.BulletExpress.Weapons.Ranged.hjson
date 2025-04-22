@@ -210,7 +210,11 @@ Mixer: {
 
 Moerjiekos: {
 	DisplayName: 默尔界柯斯
-	Tooltip: ""
+	Tooltip:
+		'''
+		在大多数领域都有点好，好处是你可以维持一份基本的工作，
+		   坏处是，如果您没有专业级别的技能，那么它只是维护。
+		'''
 }
 
 KnifeDance: {

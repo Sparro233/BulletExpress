@@ -28,7 +28,7 @@ namespace BulletExpress.Ammo.Arrow
         {
             CreateRecipe(300)
             .AddIngredient(2766)
-            .AddTile(TileID.MythrilAnvil)
+            .AddTile(TileID.Autohammer)
             .Register();
         }
     }

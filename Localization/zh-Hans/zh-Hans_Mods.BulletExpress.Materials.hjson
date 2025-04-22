@@ -176,3 +176,13 @@ AgarFlowersSeed: {
 	DisplayName: 琼浆花种子
 	Tooltip: ""
 }
+
+ManganeseBatteries: {
+	Tooltip: ""
+	DisplayName: 锰电池
+}
+
+ElegantBlackOven: {
+	Tooltip: ""
+	DisplayName: 典雅黑烤箱
+}

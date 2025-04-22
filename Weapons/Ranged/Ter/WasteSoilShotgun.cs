@@ -51,15 +51,15 @@ namespace BulletExpress.Weapons.Ranged.Ter
 
         public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback)
         {
-            Projectile.NewProjectileDirect(source, position, velocity, ModContent.ProjectileType<Projectiles.Ranged.TundraBlade>(), damage, knockback, player.whoAmI);
-            //Èç¹ûÖ÷Éäµ¯Îª£¬Ôò¸ü¸ÄÎª
+            Projectile.NewProjectileDirect(source, position, velocity, ModContent.ProjectileType<Projectiles.Ranged.TundraBlade>(), damage * 3, knockback, player.whoAmI);
+            //å¦‚æœä¸»å°„å¼¹ä¸ºï¼Œåˆ™æ›´æ”¹ä¸º
             if (type == ProjectileID.Bullet)
             {
                 type = ModContent.ProjectileType<AmmoPro.Bullet.HighVelocityNanoBullet>();
             }
-            //Ñ¡ÖĞÖ÷Éäµ¯
+            //é€‰ä¸­ä¸»å°„å¼¹
             int ammo = Projectile.NewProjectile(source, position, velocity, type, damage, knockback, player.whoAmI, 0f, 0f);
-            //Èç¹ûÖ÷Éäµ¯ÊôĞÔ²»×ã£¬Ôò²¹×ã
+            //å¦‚æœä¸»å°„å¼¹å±æ€§ä¸è¶³ï¼Œåˆ™è¡¥è¶³
             if (Main.projectile[ammo].extraUpdates < 2)
             {
                 Main.projectile[ammo].extraUpdates = 2;

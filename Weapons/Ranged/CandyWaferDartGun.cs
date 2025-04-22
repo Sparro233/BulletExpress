@@ -69,7 +69,7 @@ namespace BulletExpress.Weapons.Ranged
             .AddIngredient(ModContent.ItemType<IDB.Materials.RefinedSugarBottle>(), 7)
             .AddIngredient(ModContent.ItemType<IDB.Materials.SlimeCream>(), 7)
             .AddIngredient(ModContent.ItemType<IDB.Materials.Flour>(), 7)
-            .AddTile(TileID.HeavyWorkBench)
+            .AddTile<IDA.Tiles.ElegantBlackOven>()
             .Register();
         }
     }

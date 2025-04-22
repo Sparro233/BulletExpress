@@ -8,10 +8,10 @@ namespace BulletExpress.Weapons.Ranged
             Item.DamageType = DamageClass.Ranged;
             Item.useStyle = ItemUseStyleID.Shoot;
             Item.UseSound = SoundID.Item98;
-            Item.damage = 125;
+            Item.damage = 200;
             Item.knockBack = 0;
-            Item.useTime = 26;
-            Item.useAnimation = 26;
+            Item.useTime = 36;
+            Item.useAnimation = 36;
             Item.value = 7810;
             Item.rare = 2;
 
@@ -75,7 +75,7 @@ namespace BulletExpress.Weapons.Ranged
             .AddIngredient(ModContent.ItemType<CandyWaferDartGun>())
             .AddIngredient(ModContent.ItemType<IDB.Materials.SteelTube>())
             .AddIngredient(ModContent.ItemType<IDB.Materials.Flour>(), 12)
-            .AddTile(247)
+            .AddTile(TileID.Autohammer)
             .Register();
         }
     }

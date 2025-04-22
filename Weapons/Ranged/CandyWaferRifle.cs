@@ -8,7 +8,7 @@ namespace BulletExpress.Weapons.Ranged
             Item.DamageType = DamageClass.Ranged;
             Item.useStyle = ItemUseStyleID.Shoot;
             Item.UseSound = SoundID.Item11;
-            Item.damage = 22;
+            Item.damage = 26;
             Item.knockBack = 3;
             Item.useTime = 10;
             Item.useAnimation = 10;
@@ -36,7 +36,7 @@ namespace BulletExpress.Weapons.Ranged
             .AddIngredient(ModContent.ItemType<IDB.Materials.RefinedSugarBottle>(), 7)
             .AddIngredient(ModContent.ItemType<IDB.Materials.SlimeCream>(), 7)
             .AddIngredient(ModContent.ItemType<IDB.Materials.Flour>(), 7)
-            .AddTile(TileID.HeavyWorkBench)
+            .AddTile<IDA.Tiles.ElegantBlackOven>()
             .Register();
         }
     }

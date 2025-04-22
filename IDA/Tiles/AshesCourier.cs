@@ -27,8 +27,8 @@ namespace BulletExpress.IDA.Tiles
             TileObjectData.newTile.Height = 2;
             TileObjectData.newTile.Origin = new Point16(1, 1);
             TileObjectData.newTile.CoordinateWidth = 16;
-            TileObjectData.newTile.CoordinatePadding = 2;
             TileObjectData.newTile.CoordinateHeights = new int[2] { 16, 16 };
+            TileObjectData.newTile.CoordinatePadding = 2;
             TileObjectData.addTile(Type);
 
             Main.tileFrameImportant[Type] = true;

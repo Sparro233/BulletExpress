@@ -14,41 +14,41 @@ namespace BulletExpress.Weapons.Ranged.Ter
             Item.useAnimation = 40;
             Item.value = Item.sellPrice(0, 1, 20, 0);
             Item.rare = 3;
-            //È¡ÏûÎïÆ·Åö×²ÉËº¦
+            //å–æ¶ˆç‰©å“ç¢°æ’ä¼¤å®³
             Item.noMelee = true;
-            //Ê¹ÓÃµ¯Ò©£¬Ä¬ÈÏ·¢Éä£¬ÉäËÙ
+            //ä½¿ç”¨å¼¹è¯ï¼Œé»˜è®¤å‘å°„ï¼Œå°„é€Ÿ
             Item.useAmmo = AmmoID.Bullet;
             Item.shoot = 1;
             Item.shootSpeed = 12f;
-            //²»Ğ´»áµ¼ÖÂÎïÆ·ÌùÇ½µôÂäÊ±´©Ç½
+            //ä¸å†™ä¼šå¯¼è‡´ç‰©å“è´´å¢™æ‰è½æ—¶ç©¿å¢™
             Item.width = 16;
             Item.height = 16;
         }
 
         public override void HoldItem(Player player)
         {
-            //¾Ñ»÷¾µ
+            //ç‹™å‡»é•œ
             player.scope = true;
         }
 
         public override Vector2? HoldoutOffset()
         {
-            //ĞŞÕıÎäÆ÷ÓëÍæ¼ÒÊÖ²¿µÄÌùÍ¼ÏÎ½ÓÎ»ÖÃ
+            //ä¿®æ­£æ­¦å™¨ä¸ç©å®¶æ‰‹éƒ¨çš„è´´å›¾è¡”æ¥ä½ç½®
             return new Vector2(-20f, 6f);
         }
 
         public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback)
         {
-            //ÎäÆ÷Ãªµã
-            Projectile.NewProjectileDirect(source, position, velocity, ModContent.ProjectileType<Projectiles.Ranged.Glacier>(), damage, knockback, player.whoAmI);
-            //Èç¹ûÖ÷Éäµ¯Îª£¬Ôò¸ü¸ÄÎª
+            //æ­¦å™¨é”šç‚¹
+            Projectile.NewProjectileDirect(source, position, velocity, ModContent.ProjectileType<Projectiles.Ranged.Glacier>(), damage * 3, knockback, player.whoAmI);
+            //å¦‚æœä¸»å°„å¼¹ä¸ºï¼Œåˆ™æ›´æ”¹ä¸º
             if (type == ProjectileID.Bullet)
             {
                 type = ModContent.ProjectileType<AmmoPro.Bullet.IceSnowBullet>();
             }
-            //Ñ¡ÖĞÖ÷Éäµ¯
+            //é€‰ä¸­ä¸»å°„å¼¹
             int ammo = Projectile.NewProjectile(source, position, velocity, type, damage, knockback, player.whoAmI, 0f, 0f);
-            //Èç¹ûÖ÷Éäµ¯ÊôĞÔ²»×ã£¬Ôò²¹×ã
+            //å¦‚æœä¸»å°„å¼¹å±æ€§ä¸è¶³ï¼Œåˆ™è¡¥è¶³
             if (Main.projectile[ammo].extraUpdates < 2)
             {
                 Main.projectile[ammo].extraUpdates = 2;
@@ -59,36 +59,36 @@ namespace BulletExpress.Weapons.Ranged.Ter
                 Main.projectile[ammo].localNPCHitCooldown = 20;
                 Main.projectile[ammo].usesLocalNPCImmunity = true;
             }
-            //´ÓÌìÉÏ¹¥»÷£¬Ñ¡ÖĞÄ¿±êÎªÊó±êÎ»ÖÃ£¬playerÍæ¼ÒÎ»ÖÃ£¬goalÄ¿±êÎ»ÖÃ
+            //ä»å¤©ä¸Šæ”»å‡»ï¼Œé€‰ä¸­ç›®æ ‡ä¸ºé¼ æ ‡ä½ç½®ï¼Œplayerç©å®¶ä½ç½®ï¼Œgoalç›®æ ‡ä½ç½®
             Vector2 goal = Main.screenPosition + new Vector2(Main.mouseX, Main.mouseY);
             float ceiling = goal.Y;
-            //ceiling = Ìì»¨°å
+            //ceiling = å¤©èŠ±æ¿
             if (ceiling > player.Center.Y + 200f)
             {
                 ceiling = player.Center.Y + 200f;
             }
             for (int i = 0; i < 3; i++)
             {
-                //position = Î»ÖÃ - (×óÓÒ¾àÀë) * Ëæ»úÎ»ÖÃ
+                //position = ä½ç½® - (å·¦å³è·ç¦») * éšæœºä½ç½®
                 position = player.Center - new Vector2(Main.rand.NextFloat(100) * player.direction, 600f);
-                //Ôö¼ÓÃ¿¸öÉäµ¯Éú³ÉµãµÄ¾àÀë
+                //å¢åŠ æ¯ä¸ªå°„å¼¹ç”Ÿæˆç‚¹çš„è·ç¦»
                 position.Y -= 100 * i;
-                //·´Ïò
+                //åå‘
                 Vector2 direction = goal - position;
                 if (direction.Y < 0f)
                 {
                     direction.Y *= -1f;
                 }
-                //Ôö¼ÓÉ¢²¼£¬ÊıÔ½´óÔ½ÄÑÒÔÃé×¼
+                //å¢åŠ æ•£å¸ƒï¼Œæ•°è¶Šå¤§è¶Šéš¾ä»¥ç„å‡†
                 if (direction.Y < 10f)
                 {
                     direction.Y = 10f;
                 }
                 direction.Normalize();
                 direction *= velocity.Length();
-                //(Éäµ¯·ÉĞĞ·½Ïò,Ô½´óÔ½ÄÑÒÔÃé×¼)£¬×îÖÕ·ÉĞĞËÙ¶È
+                //(å°„å¼¹é£è¡Œæ–¹å‘,è¶Šå¤§è¶Šéš¾ä»¥ç„å‡†)ï¼Œæœ€ç»ˆé£è¡Œé€Ÿåº¦
                 direction.Y += Main.rand.Next(-20, 20) * 0.02f;
-                //×îÖÕÉú³ÉµÄÉäµ¯
+                //æœ€ç»ˆç”Ÿæˆçš„å°„å¼¹
                 Projectile.NewProjectile(source, position, direction, 118, damage, knockback, player.whoAmI, 0f, ceiling);
             }
 

@@ -74,7 +74,7 @@ namespace BulletExpress.Weapons.Ranged.Ter
             for (int i = 0; i < 3; i++)
             {
                 Vector2 v = velocity.RotatedByRandom(MathHelper.ToRadians(4));
-                v *= 1f - Main.rand.NextFloat(0.08f);
+                v *= 1f - Main.rand.NextFloat(0.2f);
                 Projectile.NewProjectileDirect(source, position, v, type, damage, knockback, player.whoAmI);
             }
 

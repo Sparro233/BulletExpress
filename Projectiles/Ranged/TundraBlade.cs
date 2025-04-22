@@ -13,7 +13,7 @@ namespace BulletExpress.Projectiles.Ranged
             DrawOriginOffsetY = 0;
             DrawOffsetX = 0;
 
-            Projectile.timeLeft = 40;
+            Projectile.timeLeft = 44;
 
             Projectile.friendly = true;
             Projectile.tileCollide = false;

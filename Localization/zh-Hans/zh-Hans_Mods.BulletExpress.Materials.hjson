@@ -166,3 +166,13 @@ StrayCottonSeed: {
 	DisplayName: 流浪棉花种子
 	Tooltip: ""
 }
+
+AgarDew: {
+	DisplayName: 琼浆露
+	Tooltip: ""
+}
+
+AgarFlowersSeed: {
+	DisplayName: 琼浆花种子
+	Tooltip: ""
+}

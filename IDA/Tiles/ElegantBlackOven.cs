@@ -23,7 +23,8 @@ namespace BulletExpress.IDA.Tiles
 
             Main.tileLavaDeath[Type] = true;//是否会被熔岩破坏
 
-            AddMapEntry(new Color(55, 55, 55));
+            LocalizedText name = CreateMapEntryName();
+            AddMapEntry(new Color(55, 55, 55), name);
 
             DustType = 84;//破碎尘埃
 

@@ -24,6 +24,10 @@ namespace BulletExpress.Projectiles.Ranged
         public override void AI()
         {
             base.AI();
+            //强制使用时间
+            /*player.itemTime = 20;
+            player.itemAnimation = 20;
+            player.SetDummyItemTime(20);*/
             //射弹旋转,贴图对称
             Projectile.rotation = Projectile.velocity.ToRotation() + MathHelper.PiOver2;
             Projectile.direction = Projectile.spriteDirection = (Projectile.velocity.X > 0f) ? 1 : -1;
@@ -36,11 +40,13 @@ namespace BulletExpress.Projectiles.Ranged
             float rotaion = v.ToRotation();
             if (Vector2.Distance(Projectile.Center, Main.MouseWorld) < 1)
             {
+                //射弹跟随鼠标的最终速度
                 Projectile.velocity *= 1f;
                 Projectile.Center = Main.MouseWorld;
             }
             else
             {
+                //最终速度
                 Projectile.velocity = v2 * 1;
             }
         }

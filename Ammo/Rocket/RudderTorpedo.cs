@@ -47,7 +47,7 @@ namespace BulletExpress.Ammo.Rocket
             .AddIngredient(ItemID.ChlorophyteBar)
             .AddIngredient(ItemID.HellstoneBar)
             .AddRecipeGroup("AnyEvilBar")
-            .AddTile(247)
+            .AddTile(TileID.Autohammer)
             .Register();
         }
     }

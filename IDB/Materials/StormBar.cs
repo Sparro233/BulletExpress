@@ -26,9 +26,9 @@ namespace BulletExpress.IDB.Materials
         {
             CreateRecipe()
             .AddIngredient(ModContent.ItemType<StormCrystal>(), 4)
-            .AddIngredient(ModContent.ItemType<MagicCrystal>())
+            .AddIngredient(ModContent.ItemType<MagicCrystal>(), 2)
             .AddIngredient(ModContent.ItemType<LightCrystal>())
-            .AddTile(247)
+            .AddTile(TileID.Autohammer)
             .Register();
         }
     }

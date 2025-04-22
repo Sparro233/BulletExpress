@@ -12,7 +12,7 @@ namespace BulletExpress.Weapons.Ranged.Ter
             Item.damage = 100;
             Item.knockBack = 12;
             Item.useTime = 32;
-            Item.useAnimation = 32;
+			Item.useAnimation = 32;
             Item.reuseDelay = 12;
             Item.value = Item.sellPrice(0, 8, 0, 0);
 			Item.rare = 8;
@@ -28,7 +28,7 @@ namespace BulletExpress.Weapons.Ranged.Ter
 
         public override Vector2? HoldoutOffset()
         {
-            return new Vector2(-8f, 2f);
+            return new Vector2(-8f, 4f);
         }
 
         public override void OnHitNPC(Player player, NPC target, NPC.HitInfo hit, int damageDone)
@@ -52,14 +52,14 @@ namespace BulletExpress.Weapons.Ranged.Ter
         public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback)
         {
             Projectile.NewProjectileDirect(source, position, velocity, ModContent.ProjectileType<Projectiles.Ranged.TundraBlade>(), damage, knockback, player.whoAmI);
-            //Èç¹ûÖ÷Éäµ¯Îª£¬Ôò¸ü¸ÄÎª
+            //å¦‚æœä¸»å°„å¼¹ä¸ºï¼Œåˆ™æ›´æ”¹ä¸º
             if (type == ProjectileID.Bullet)
             {
                 type = ModContent.ProjectileType<AmmoPro.Bullet.HighVelocityNanoBullet>();
             }
-            //Ñ¡ÖĞÖ÷Éäµ¯
+            //é€‰ä¸­ä¸»å°„å¼¹
             int ammo = Projectile.NewProjectile(source, position, velocity, type, damage, knockback, player.whoAmI, 0f, 0f);
-            //Èç¹ûÖ÷Éäµ¯ÊôĞÔ²»×ã£¬Ôò²¹×ã
+            //å¦‚æœä¸»å°„å¼¹å±æ€§ä¸è¶³ï¼Œåˆ™è¡¥è¶³
             if (Main.projectile[ammo].extraUpdates < 2)
             {
                 Main.projectile[ammo].extraUpdates = 2;

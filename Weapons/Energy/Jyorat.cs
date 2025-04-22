@@ -8,7 +8,7 @@ namespace BulletExpress.Weapons.Energy
             Item.DamageType = ModContent.GetInstance<BulletExpress.EnergyDamage>();
             Item.useStyle = ItemUseStyleID.Shoot;
             Item.UseSound = SoundID.Item35;
-            Item.damage = 360;
+            Item.damage = 320;
             Item.useTime = 24;
             Item.useAnimation = 24;
             Item.value = Item.sellPrice(0, 80, 0, 0);

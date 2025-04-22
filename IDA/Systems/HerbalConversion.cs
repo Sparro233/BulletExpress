@@ -40,24 +40,6 @@
             Recipe recipe5 = Recipe.Create(2357, 9);
             recipe5.AddIngredient(2358);
             recipe5.Register();
-            //探鱼器
-            Recipe Device = Recipe.Create(3036);
-            Device.AddIngredient(ModContent.ItemType<BulletExpress.IDB.Materials.ManganeseBar>(), 30);
-            Device.AddRecipeGroup("AnyGoldBar",30);
-            Device.AddTile(TileID.HeavyWorkBench);
-            Device.Register();
-            //R.E.K.3000
-            Recipe DeviceI = Recipe.Create(3122);
-            DeviceI.AddIngredient(ModContent.ItemType<BulletExpress.IDB.Materials.ManganeseBar>(), 40);
-            DeviceI.AddRecipeGroup("AnySilverBar", 40);
-            DeviceI.AddTile(TileID.HeavyWorkBench);
-            DeviceI.Register();
-            //全球定位仪
-            Recipe DeviceII = Recipe.Create(395);
-            DeviceII.AddIngredient(ModContent.ItemType<BulletExpress.IDB.Materials.ManganeseBar>(), 20);
-            DeviceII.AddRecipeGroup("AnyCopperBar",20);
-            DeviceII.AddTile(TileID.HeavyWorkBench);
-            DeviceII.Register();
         }
     }
 }

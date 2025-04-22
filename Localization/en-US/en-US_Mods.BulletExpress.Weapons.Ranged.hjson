@@ -210,7 +210,11 @@ Mixer: {
 
 Moerjiekos: {
 	DisplayName: Moerjiekos
-	Tooltip: ""
+	Tooltip:
+		'''
+		Something good at most areas a little bit, and the good thing is that you can maintain a basic job, 
+		The downside is that if you don't have a professional level skill, then it's just maintenance.
+		'''
 }
 
 KnifeDance: {

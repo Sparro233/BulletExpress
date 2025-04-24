@@ -103,4 +103,34 @@ Items: {
 		DisplayName: 无尽洞穴探险照明弹
 		Tooltip: ""
 	}
+
+	CactusStaff: {
+		DisplayName: 仙人掌法杖
+		Tooltip: "[c/444444:用于研究哨兵，你不应该获得它]"
+	}
+
+	BeeDart: {
+		DisplayName: 蜜蜂飞镖
+		Tooltip: ""
+	}
+
+	HellstoneDart: {
+		DisplayName: 狱石飞镖
+		Tooltip: ""
+	}
+
+	IceSnowDart: {
+		DisplayName: 冰雪飞镖
+		Tooltip: ""
+	}
+
+	MeteorRefraction: {
+		DisplayName: 流星折射
+		Tooltip: ""
+	}
+
+	ShroomiteDart: {
+		DisplayName: 蘑菇锭飞镖
+		Tooltip: ""
+	}
 }

@@ -103,4 +103,34 @@ Items: {
 		DisplayName: Endless Spelunker Flare
 		Tooltip: ""
 	}
+
+	CactusStaff: {
+		DisplayName: Cactus Staff
+		Tooltip: "[c/444444:用于研究哨兵，你不应该获得它]"
+	}
+
+	BeeDart: {
+		DisplayName: Bee Dart
+		Tooltip: ""
+	}
+
+	HellstoneDart: {
+		DisplayName: Hellstone Dart
+		Tooltip: ""
+	}
+
+	IceSnowDart: {
+		DisplayName: Ice Snow Dart
+		Tooltip: ""
+	}
+
+	MeteorRefraction: {
+		DisplayName: Meteor Refraction
+		Tooltip: ""
+	}
+
+	ShroomiteDart: {
+		DisplayName: Shroomite Dart
+		Tooltip: ""
+	}
 }

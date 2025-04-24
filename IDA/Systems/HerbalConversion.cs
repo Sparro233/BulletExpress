@@ -7,6 +7,11 @@
             /*请始终确保“添加配料”“添加瓷砖”“注册”前的名称是配方的名称
             不知道为什么自定义配方不能被独立分开
             可能是顶级命名空间不匹配导致的*/
+            //炼金术(铂金)
+            Recipe Alchemy = Recipe.Create(ItemID.PlatinumOre);
+            Alchemy.AddRecipeGroup("AnyDirtBlock", 9);
+            Alchemy.AddTile(TileID.HeavyWorkBench);
+            Alchemy.Register();
             //太阳花
             Recipe recipe = Recipe.Create(307, 9);
             recipe.AddIngredient(313);

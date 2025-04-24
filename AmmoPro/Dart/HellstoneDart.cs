@@ -1,4 +1,4 @@
-﻿namespace BulletExpress.AmmoPro.Dart
+namespace BulletExpress.AmmoPro.Dart
 {
     public class HellstoneDart : ModProjectile
     {
@@ -10,26 +10,24 @@
             Projectile.width = 14;
             Projectile.height = 14;
 
-            Projectile.timeLeft = 600;
             Projectile.penetrate = -1;
 
             Projectile.friendly = true;
-            Projectile.tileCollide = true;
             base.SetDefaults();
         }
 
         public override void AI()
         {
-            base.AI();
+            //base.AI();
             Projectile.rotation = Projectile.velocity.ToRotation() - MathHelper.PiOver2;
 
-            Projectile.ai[0] += 1f;
+            /*Projectile.ai[0] += 1f;
             if (Projectile.ai[0] >= 30f)
             {
                 Projectile.ai[0] = 30f;
                 Projectile.velocity.Y *= 0.99f;
                 Projectile.velocity.Y += 0.1f;
-            }
+            }*/
         }
 
         public override bool PreDraw(ref Color lightColor)
@@ -45,7 +43,7 @@
         {
             Vector2 v = new Vector2(0, 0);
             v = v.RotatedBy(MathHelper.PiOver4);
-            Projectile.NewProjectile(Projectile.InheritSource(Projectile), Projectile.Center, v, ModContent.ProjectileType<Projectiles.Ranged.DaylightExplodes>(), Projectile.damage, Projectile.knockBack, Projectile.owner);
+            Projectile.NewProjectile(Projectile.InheritSource(Projectile), Projectile.Center, v, ModContent.ProjectileType<Projectiles.Ranged.DaylightExplodes>(), Projectile.damage * 2, Projectile.knockBack, Projectile.owner);
         }
     }
 }

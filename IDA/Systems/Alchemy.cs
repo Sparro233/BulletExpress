@@ -1,6 +1,6 @@
 ﻿namespace BulletExpress
 {
-    public class Device : ModSystem
+    public class Alchemy : ModSystem
     {
         public override void AddRecipes()
         {

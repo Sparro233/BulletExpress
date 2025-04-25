@@ -115,13 +115,13 @@ namespace BulletExpress.Projectiles.Melee.Halberd
                 Projectile.alpha = 0;
             }
 
-            float minimumDustVelocity = 6f;
+            //float minimumDustVelocity = 6f;
 
             float movementInLanceDirection = Vector2.Dot(Projectile.velocity.SafeNormalize(Vector2.UnitX * owner.direction), owner.velocity.SafeNormalize(Vector2.UnitX * owner.direction));
 
             float playerVelocity = owner.velocity.Length();
 
-            if (playerVelocity > minimumDustVelocity && movementInLanceDirection > 0.8f)
+            /*if (playerVelocity > minimumDustVelocity && movementInLanceDirection > 0.8f)
             {
                 int dustChance = 8;
                 if (playerVelocity > minimumDustVelocity + 1f)
@@ -132,7 +132,7 @@ namespace BulletExpress.Projectiles.Melee.Halberd
                 {
                     dustChance = 2;
                 }
-            }
+            }*/
         }
 
         public override void ModifyHitNPC(NPC target, ref NPC.HitModifiers modifiers)

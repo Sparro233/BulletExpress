@@ -1,3 +1,5 @@
+using Terraria.ID;
+
 namespace BulletExpress.Projectiles.Melee.Halberd
 {
     public class ChlorophyteHalberd : ModProjectile, ILocalizedModType
@@ -117,13 +119,13 @@ namespace BulletExpress.Projectiles.Melee.Halberd
                 Projectile.alpha = 0;
             }
 
-            float minimumDustVelocity = 6f;
+            //float minimumDustVelocity = 6f;
 
             float movementInLanceDirection = Vector2.Dot(Projectile.velocity.SafeNormalize(Vector2.UnitX * owner.direction), owner.velocity.SafeNormalize(Vector2.UnitX * owner.direction));
 
             float playerVelocity = owner.velocity.Length();
 
-            if (playerVelocity > minimumDustVelocity && movementInLanceDirection > 0.8f)
+            /*if (playerVelocity > minimumDustVelocity && movementInLanceDirection > 0.8f)
             {
                 int dustChance = 8;
                 if (playerVelocity > minimumDustVelocity + 1f)
@@ -134,7 +136,7 @@ namespace BulletExpress.Projectiles.Melee.Halberd
                 {
                     dustChance = 2;
                 }
-            }
+            }*/
         }
 
         public override void ModifyHitNPC(NPC target, ref NPC.HitModifiers modifiers)
@@ -147,7 +149,7 @@ namespace BulletExpress.Projectiles.Melee.Halberd
         {
             for (int j = 0; j < 8; j++)
             {
-                Dust d = Dust.NewDustDirect(Projectile.position, Projectile.width, Projectile.height, 131, 0f, 0f, 100, default, 1f);
+                Dust d = Dust.NewDustDirect(Projectile.position, Projectile.width, Projectile.height, DustID.Firework_Green, 0f, 0f, 100, default, 1f);
                 d.noGravity = true;
                 d.velocity *= 3f;
             }

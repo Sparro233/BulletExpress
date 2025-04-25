@@ -34,7 +34,7 @@ namespace BulletExpress.Projectiles.Energy
 
         public override void OnHitPlayer(Player target, Player.HurtInfo info)
         {
-            target.AddBuff(309, 300);
+            target.AddBuff(309, 600);
             Main.player[Projectile.owner].AddBuff(308, 600);
             Main.player[Projectile.owner].AddBuff(ModContent.BuffType<IDA.Buffs.Bless.JyoratBless>(), 600);
 

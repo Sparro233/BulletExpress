@@ -24,14 +24,15 @@ namespace BulletExpress.Projectiles.Ranged
         public override void AI()
         {
             base.AI();
-            //Éäµ¯Ğı×ª,ÌùÍ¼¶Ô³Æ
+            //å°„å¼¹æ—‹è½¬,è´´å›¾å¯¹ç§°ï¼Œä»…å½±å“è§†è§‰
             Projectile.rotation = Projectile.velocity.ToRotation() + MathHelper.PiOver2;
             Projectile.direction = Projectile.spriteDirection = (Projectile.velocity.X > 0f) ? 1 : -1;
 
-            //Ñ°ÕÒÍæ¼ÒºÍÉäµ¯Ö®¼äµÄÏß£¬Ãª¶¨Éäµ¯¸úËæÍæ¼ÒµÄËÙ¶È
+            //å¯»æ‰¾ç©å®¶å’Œå°„å¼¹ä¹‹é—´çš„çº¿ï¼Œé”šå®šå°„å¼¹è·Ÿéšç©å®¶çš„é€Ÿåº¦
             Player player = Main.player[Projectile.owner];
             Projectile.position = player.position + Projectile.velocity * 0f * (200f - Projectile.timeLeft);
-            //Ñ°ÕÒÍæ¼ÒºÍÊó±êÖ®¼äµÄÏß£¬²úÉú¸ú×ÙÊó±êµÄËÙ¶È£¬²¢Ğı×ª
+
+            //å¯»æ‰¾ç©å®¶å’Œé¼ æ ‡ä¹‹é—´çš„çº¿ï¼Œäº§ç”Ÿè·Ÿè¸ªé¼ æ ‡çš„é€Ÿåº¦ï¼Œå¹¶æ—‹è½¬
             Vector2 v = Vector2.Normalize(Main.MouseWorld - player.Center);
             Vector2 v2 = Vector2.Normalize(Main.MouseWorld - Projectile.Center);
             float rotaion = v.ToRotation();
@@ -45,22 +46,22 @@ namespace BulletExpress.Projectiles.Ranged
                 Projectile.velocity = v2 * 1;
             }
 
-            //Ëø¶¨Éäµ¯ºÍÍæ¼Ò
+            //é”å®šå°„å¼¹å’Œç©å®¶
             Vector2 playerRotatedPoint = player.RotatedRelativePoint(player.MountedCenter, true);
 
-            //Ğı×ªºÍ¶¨Ïò¡£
+            //æ—‹è½¬å’Œå®šå‘ã€‚
             float velocityAngle = Projectile.velocity.ToRotation();
             Projectile.rotation = velocityAngle + (Projectile.spriteDirection == -1).ToInt() * MathHelper.Pi;
             Projectile.direction = (Math.Cos(velocityAngle) > 0).ToDirectionInt();
 
-            //¿¿½üÍæ¼ÒÊÖ±ÛÄ©¶ËµÄÎ»ÖÃ¡£
+            //é è¿‘ç©å®¶æ‰‹è‡‚æœ«ç«¯çš„ä½ç½®ï¼Œè¶Šå¤§ç¦»ç©å®¶è¶Šè¿œ
             Projectile.position = playerRotatedPoint - Projectile.Size * 0.5f + velocityAngle.ToRotationVector2() * 80f;
 
-            //Sprite ºÍÍæ¼Ò·½Ïò¡£
+            //Sprite å’Œç©å®¶æ–¹å‘ï¼Œç§»é™¤è¿™ä¸ªä¼šå¯¼è‡´ç©å®¶è´´å›¾å¼ºåˆ¶å›ºå®šæ”»å‡»æ–¹å‘ã€‚
             Projectile.spriteDirection = Projectile.direction;
             player.ChangeDir(Projectile.direction);
 
-            //»ùÓÚÍæ¼ÒÏîÄ¿µÄ×Ö¶Î×÷¡£
+            //åŸºäºç©å®¶é¡¹ç›®çš„å­—æ®µä½œï¼Œç§»é™¤è¿™ä¸ªä¼šå¯¼è‡´ç‰©å“è´´å›¾ä¸è·Ÿéšé¼ æ ‡ã€‚
             player.itemRotation = (Projectile.velocity * Projectile.direction).ToRotation();
             player.heldProj = Projectile.whoAmI;
         }

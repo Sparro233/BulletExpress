@@ -24,15 +24,15 @@ namespace BulletExpress.Projectiles.Ranged
         public override void AI()
         {
             base.AI();
-            //å°„å¼¹æ—‹è½¬,è´´å›¾å¯¹ç§°ï¼Œä»…å½±å“è§†è§‰
+            //Éäµ¯Ğı×ª,ÌùÍ¼¶Ô³Æ£¬½öÓ°ÏìÊÓ¾õ
             Projectile.rotation = Projectile.velocity.ToRotation() + MathHelper.PiOver2;
             Projectile.direction = Projectile.spriteDirection = (Projectile.velocity.X > 0f) ? 1 : -1;
 
-            //å¯»æ‰¾ç©å®¶å’Œå°„å¼¹ä¹‹é—´çš„çº¿ï¼Œé”šå®šå°„å¼¹è·Ÿéšç©å®¶çš„é€Ÿåº¦
+            //Ñ°ÕÒÍæ¼ÒºÍÉäµ¯Ö®¼äµÄÏß£¬Ãª¶¨Éäµ¯¸úËæÍæ¼ÒµÄËÙ¶È
             Player player = Main.player[Projectile.owner];
             Projectile.position = player.position + Projectile.velocity * 0f * (200f - Projectile.timeLeft);
 
-            //å¯»æ‰¾ç©å®¶å’Œé¼ æ ‡ä¹‹é—´çš„çº¿ï¼Œäº§ç”Ÿè·Ÿè¸ªé¼ æ ‡çš„é€Ÿåº¦ï¼Œå¹¶æ—‹è½¬
+            //Ñ°ÕÒÍæ¼ÒºÍÊó±êÖ®¼äµÄÏß£¬²úÉú¸ú×ÙÊó±êµÄËÙ¶È£¬²¢Ğı×ª
             Vector2 v = Vector2.Normalize(Main.MouseWorld - player.Center);
             Vector2 v2 = Vector2.Normalize(Main.MouseWorld - Projectile.Center);
             float rotaion = v.ToRotation();
@@ -46,22 +46,22 @@ namespace BulletExpress.Projectiles.Ranged
                 Projectile.velocity = v2 * 1;
             }
 
-            //é”å®šå°„å¼¹å’Œç©å®¶
+            //Ëø¶¨Éäµ¯ºÍÍæ¼Ò
             Vector2 playerRotatedPoint = player.RotatedRelativePoint(player.MountedCenter, true);
 
-            //æ—‹è½¬å’Œå®šå‘ã€‚
+            //Ğı×ªºÍ¶¨Ïò¡£
             float velocityAngle = Projectile.velocity.ToRotation();
             Projectile.rotation = velocityAngle + (Projectile.spriteDirection == -1).ToInt() * MathHelper.Pi;
             Projectile.direction = (Math.Cos(velocityAngle) > 0).ToDirectionInt();
 
-            //é è¿‘ç©å®¶æ‰‹è‡‚æœ«ç«¯çš„ä½ç½®ï¼Œè¶Šå¤§ç¦»ç©å®¶è¶Šè¿œ
+            //¿¿½üÍæ¼ÒÊÖ±ÛÄ©¶ËµÄÎ»ÖÃ£¬Ô½´óÀëÍæ¼ÒÔ½Ô¶
             Projectile.position = playerRotatedPoint - Projectile.Size * 0.5f + velocityAngle.ToRotationVector2() * 80f;
 
-            //Sprite å’Œç©å®¶æ–¹å‘ï¼Œç§»é™¤è¿™ä¸ªä¼šå¯¼è‡´ç©å®¶è´´å›¾å¼ºåˆ¶å›ºå®šæ”»å‡»æ–¹å‘ã€‚
+            //Sprite ºÍÍæ¼Ò·½Ïò£¬ÒÆ³ıÕâ¸ö»áµ¼ÖÂÍæ¼ÒÌùÍ¼Ç¿ÖÆ¹Ì¶¨¹¥»÷·½Ïò¡£
             Projectile.spriteDirection = Projectile.direction;
             player.ChangeDir(Projectile.direction);
 
-            //åŸºäºç©å®¶é¡¹ç›®çš„å­—æ®µä½œï¼Œç§»é™¤è¿™ä¸ªä¼šå¯¼è‡´ç‰©å“è´´å›¾ä¸è·Ÿéšé¼ æ ‡ã€‚
+            //»ùÓÚÍæ¼ÒÏîÄ¿µÄ×Ö¶Î×÷£¬ÒÆ³ıÕâ¸ö»áµ¼ÖÂÎïÆ·ÌùÍ¼²»¸úËæÊó±ê¡£
             player.itemRotation = (Projectile.velocity * Projectile.direction).ToRotation();
             player.heldProj = Projectile.whoAmI;
         }
@@ -82,8 +82,6 @@ namespace BulletExpress.Projectiles.Ranged
 
         public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
         {
-            Main.player[Projectile.owner].velocity = Vector2.Normalize(-Projectile.velocity) * 12f;
-            NetMessage.SendData(MessageID.SyncPlayer, -1, -1, null, Projectile.owner);
             for (int i = 0; i < 8; i++)
             {
                 Dust d = Dust.NewDustDirect(Projectile.position, Projectile.width, Projectile.height, ModContent.DustType<IDA.Powders.Light>(), 0f, 0f, 0, default, 1.5f);

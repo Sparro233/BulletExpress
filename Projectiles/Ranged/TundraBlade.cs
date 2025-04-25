@@ -81,8 +81,6 @@ namespace BulletExpress.Projectiles.Ranged
 
         public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
         {
-            Main.player[Projectile.owner].velocity = Vector2.Normalize(-Projectile.velocity) * 12f;
-            NetMessage.SendData(MessageID.SyncPlayer, -1, -1, null, Projectile.owner);
             for (int i = 0; i < 8; i++)
             {
                 Dust d = Dust.NewDustDirect(Projectile.position, Projectile.width, Projectile.height, ModContent.DustType<IDA.Powders.Feather>(), 0f, 0f, 0, default, 1.5f);
